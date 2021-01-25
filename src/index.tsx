@@ -1,12 +1,11 @@
 import React from 'react';
-import { StyleSheet, Platform, StatusBar, SafeAreaView, Text } from 'react-native';
+import Main from './pages/main';
+import { StyleSheet, Platform, StatusBar, SafeAreaView } from 'react-native';
 
 export default () => {
     return (
         <SafeAreaView style={styles.container}>
-            <Text>
-                Hello World 🎉
-            </Text>
+            <Main />
         </SafeAreaView>
     );
 }

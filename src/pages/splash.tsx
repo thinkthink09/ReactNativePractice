@@ -3,21 +3,9 @@ import { StyleSheet, View, Text, TextInput, Button } from 'react-native';
 import Theme from '../theme'
 
 export default () => {
-    const [username, onChangeText] = React.useState('username here');
-
-    const loginHandler = () => {
-        console.log(username, 'is logging in');
-    }
-
     return (
         <View style={styles.container}>
-            <Text style={[Theme.text]}>Login</Text>
-            <TextInput
-                style={[Theme.text]}
-                onChangeText={text => onChangeText(text)}
-                value={username}
-            />
-            <Button title="Login" onPress={loginHandler}/>
+            <Text style={[Theme.text]}>Welcome</Text>
         </View>
     );
 }

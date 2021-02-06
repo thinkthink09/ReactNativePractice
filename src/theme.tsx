@@ -17,7 +17,7 @@ export const spaces = {
     xxxl: '',
 };
 
-export const theme = StyleSheet.create({
+export default StyleSheet.create({
     textInput: {
         height: spaces.m
     },

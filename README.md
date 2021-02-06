@@ -51,3 +51,9 @@ here's how to setup both environments:
 
 4.  on your mobile device, open Expo Client App, and scan the QR code on your metro bundler page.
     other debug methods please view https://www.youtube.com/watch?v=0-S5a0eXPoc&t=33s
+
+5.  Adding test libraries
+
+    ```
+    yarn add --dev jest jest-expo jest-fetch-mock @types/jest @testing-library/react-native
+    ```

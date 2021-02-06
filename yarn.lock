@@ -8,6 +8,12 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
+"@babel/code-frame@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
+  dependencies:
+    "@babel/highlight" "^7.12.13"
+
 "@babel/code-frame@~7.10.4":
   version "7.10.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -59,6 +65,26 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
+"@babel/core@^7.1.0", "@babel/core@^7.7.5":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/core/-/core-7.12.13.tgz#b73a87a3a3e7d142a66248bf6ad88b9ceb093425"
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@babel/generator" "^7.12.13"
+    "@babel/helper-module-transforms" "^7.12.13"
+    "@babel/helpers" "^7.12.13"
+    "@babel/parser" "^7.12.13"
+    "@babel/template" "^7.12.13"
+    "@babel/traverse" "^7.12.13"
+    "@babel/types" "^7.12.13"
+    convert-source-map "^1.7.0"
+    debug "^4.1.0"
+    gensync "^1.0.0-beta.1"
+    json5 "^2.1.2"
+    lodash "^4.17.19"
+    semver "^5.4.1"
+    source-map "^0.5.0"
+
 "@babel/core@~7.9.0":
   version "7.9.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/core/-/core-7.9.6.tgz#d9aa1f580abf3b2286ef40b6904d390904c63376"
@@ -85,6 +111,14 @@
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/generator/-/generator-7.12.11.tgz#98a7df7b8c358c9a37ab07a24056853016aba3af"
   dependencies:
     "@babel/types" "^7.12.11"
+    jsesc "^2.5.1"
+    source-map "^0.5.0"
+
+"@babel/generator@^7.12.13":
+  version "7.12.15"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/generator/-/generator-7.12.15.tgz#4617b5d0b25cc572474cc1aafee1edeaf9b5368f"
+  dependencies:
+    "@babel/types" "^7.12.13"
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
@@ -149,11 +183,25 @@
     "@babel/template" "^7.12.7"
     "@babel/types" "^7.12.11"
 
+"@babel/helper-function-name@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-function-name/-/helper-function-name-7.12.13.tgz#93ad656db3c3c2232559fd7b2c3dbdcbe0eb377a"
+  dependencies:
+    "@babel/helper-get-function-arity" "^7.12.13"
+    "@babel/template" "^7.12.13"
+    "@babel/types" "^7.12.13"
+
 "@babel/helper-get-function-arity@^7.12.10":
   version "7.12.10"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-get-function-arity/-/helper-get-function-arity-7.12.10.tgz#b158817a3165b5faa2047825dfa61970ddcc16cf"
   dependencies:
     "@babel/types" "^7.12.10"
+
+"@babel/helper-get-function-arity@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-get-function-arity/-/helper-get-function-arity-7.12.13.tgz#bc63451d403a3b3082b97e1d8b3fe5bd4091e583"
+  dependencies:
+    "@babel/types" "^7.12.13"
 
 "@babel/helper-hoist-variables@^7.10.4":
   version "7.10.4"
@@ -167,11 +215,23 @@
   dependencies:
     "@babel/types" "^7.12.7"
 
+"@babel/helper-member-expression-to-functions@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.12.13.tgz#c5715695b4f8bab32660dbdcdc2341dec7e3df40"
+  dependencies:
+    "@babel/types" "^7.12.13"
+
 "@babel/helper-module-imports@^7.12.1", "@babel/helper-module-imports@^7.12.5":
   version "7.12.5"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-module-imports/-/helper-module-imports-7.12.5.tgz#1bfc0229f794988f76ed0a4d4e90860850b54dfb"
   dependencies:
     "@babel/types" "^7.12.5"
+
+"@babel/helper-module-imports@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-module-imports/-/helper-module-imports-7.12.13.tgz#ec67e4404f41750463e455cc3203f6a32e93fcb0"
+  dependencies:
+    "@babel/types" "^7.12.13"
 
 "@babel/helper-module-transforms@^7.12.1", "@babel/helper-module-transforms@^7.9.0":
   version "7.12.1"
@@ -187,15 +247,39 @@
     "@babel/types" "^7.12.1"
     lodash "^4.17.19"
 
+"@babel/helper-module-transforms@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-module-transforms/-/helper-module-transforms-7.12.13.tgz#01afb052dcad2044289b7b20beb3fa8bd0265bea"
+  dependencies:
+    "@babel/helper-module-imports" "^7.12.13"
+    "@babel/helper-replace-supers" "^7.12.13"
+    "@babel/helper-simple-access" "^7.12.13"
+    "@babel/helper-split-export-declaration" "^7.12.13"
+    "@babel/helper-validator-identifier" "^7.12.11"
+    "@babel/template" "^7.12.13"
+    "@babel/traverse" "^7.12.13"
+    "@babel/types" "^7.12.13"
+    lodash "^4.17.19"
+
 "@babel/helper-optimise-call-expression@^7.10.4", "@babel/helper-optimise-call-expression@^7.12.10":
   version "7.12.10"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.12.10.tgz#94ca4e306ee11a7dd6e9f42823e2ac6b49881e2d"
   dependencies:
     "@babel/types" "^7.12.10"
 
+"@babel/helper-optimise-call-expression@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.12.13.tgz#5c02d171b4c8615b1e7163f888c1c81c30a2aaea"
+  dependencies:
+    "@babel/types" "^7.12.13"
+
 "@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
   version "7.10.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.10.4.tgz#2f75a831269d4f677de49986dff59927533cf375"
+
+"@babel/helper-plugin-utils@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.12.13.tgz#174254d0f2424d8aefb4dd48057511247b0a9eeb"
 
 "@babel/helper-remap-async-to-generator@^7.12.1":
   version "7.12.1"
@@ -214,11 +298,26 @@
     "@babel/traverse" "^7.12.10"
     "@babel/types" "^7.12.11"
 
+"@babel/helper-replace-supers@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-replace-supers/-/helper-replace-supers-7.12.13.tgz#00ec4fb6862546bd3d0aff9aac56074277173121"
+  dependencies:
+    "@babel/helper-member-expression-to-functions" "^7.12.13"
+    "@babel/helper-optimise-call-expression" "^7.12.13"
+    "@babel/traverse" "^7.12.13"
+    "@babel/types" "^7.12.13"
+
 "@babel/helper-simple-access@^7.12.1":
   version "7.12.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-simple-access/-/helper-simple-access-7.12.1.tgz#32427e5aa61547d38eb1e6eaf5fd1426fdad9136"
   dependencies:
     "@babel/types" "^7.12.1"
+
+"@babel/helper-simple-access@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-simple-access/-/helper-simple-access-7.12.13.tgz#8478bcc5cacf6aa1672b251c1d2dde5ccd61a6c4"
+  dependencies:
+    "@babel/types" "^7.12.13"
 
 "@babel/helper-skip-transparent-expression-wrappers@^7.12.1":
   version "7.12.1"
@@ -231,6 +330,12 @@
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.12.11.tgz#1b4cc424458643c47d37022223da33d76ea4603a"
   dependencies:
     "@babel/types" "^7.12.11"
+
+"@babel/helper-split-export-declaration@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.12.13.tgz#e9430be00baf3e88b0e13e6f9d4eaf2136372b05"
+  dependencies:
+    "@babel/types" "^7.12.13"
 
 "@babel/helper-validator-identifier@^7.10.4", "@babel/helper-validator-identifier@^7.12.11":
   version "7.12.11"
@@ -249,6 +354,14 @@
     "@babel/traverse" "^7.10.4"
     "@babel/types" "^7.10.4"
 
+"@babel/helpers@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helpers/-/helpers-7.12.13.tgz#3c75e993632e4dadc0274eae219c73eb7645ba47"
+  dependencies:
+    "@babel/template" "^7.12.13"
+    "@babel/traverse" "^7.12.13"
+    "@babel/types" "^7.12.13"
+
 "@babel/helpers@^7.12.5", "@babel/helpers@^7.9.0", "@babel/helpers@^7.9.6":
   version "7.12.5"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/helpers/-/helpers-7.12.5.tgz#1a1ba4a768d9b58310eda516c449913fe647116e"
@@ -265,9 +378,21 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@babel/highlight@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/highlight/-/highlight-7.12.13.tgz#8ab538393e00370b26271b01fa08f7f27f2e795c"
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.12.11"
+    chalk "^2.0.0"
+    js-tokens "^4.0.0"
+
 "@babel/parser@^7.0.0", "@babel/parser@^7.12.10", "@babel/parser@^7.12.11", "@babel/parser@^7.12.7", "@babel/parser@^7.9.0", "@babel/parser@^7.9.6":
   version "7.12.11"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/parser/-/parser-7.12.11.tgz#9ce3595bcd74bc5c466905e86c535b8b25011e79"
+
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.13":
+  version "7.12.15"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/parser/-/parser-7.12.15.tgz#2b20de7f0b4b332d9b119dd9c33409c538b8aacf"
 
 "@babel/plugin-external-helpers@^7.0.0":
   version "7.12.1"
@@ -384,9 +509,15 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.1"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-async-generators@^7.8.0":
+"@babel/plugin-syntax-async-generators@^7.8.0", "@babel/plugin-syntax-async-generators@^7.8.4":
   version "7.8.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.0"
+
+"@babel/plugin-syntax-bigint@^7.8.3":
+  version "7.8.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-bigint/-/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
@@ -395,6 +526,12 @@
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.1.tgz#bcb297c5366e79bebadef509549cd93b04f19978"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
+
+"@babel/plugin-syntax-class-properties@^7.8.3":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz#b5c987274c4a3a82b89714796931a6b53544ae10"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-decorators@^7.12.1":
   version "7.12.1"
@@ -426,7 +563,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-json-strings@^7.8.0":
+"@babel/plugin-syntax-import-meta@^7.8.3":
+  version "7.10.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-import-meta/-/plugin-syntax-import-meta-7.10.4.tgz#ee601348c370fa334d2207be158777496521fd51"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.10.4"
+
+"@babel/plugin-syntax-json-strings@^7.8.0", "@babel/plugin-syntax-json-strings@^7.8.3":
   version "7.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz#01ca21b668cd8218c9e640cb6dd88c5412b2c96a"
   dependencies:
@@ -438,37 +581,37 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-logical-assignment-operators@^7.10.4":
+"@babel/plugin-syntax-logical-assignment-operators@^7.10.4", "@babel/plugin-syntax-logical-assignment-operators@^7.8.3":
   version "7.10.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz#ca91ef46303530448b906652bac2e9fe9941f699"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-nullish-coalescing-operator@^7.0.0", "@babel/plugin-syntax-nullish-coalescing-operator@^7.8.0":
+"@babel/plugin-syntax-nullish-coalescing-operator@^7.0.0", "@babel/plugin-syntax-nullish-coalescing-operator@^7.8.0", "@babel/plugin-syntax-nullish-coalescing-operator@^7.8.3":
   version "7.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz#167ed70368886081f74b5c36c65a88c03b66d1a9"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-numeric-separator@^7.10.4":
+"@babel/plugin-syntax-numeric-separator@^7.10.4", "@babel/plugin-syntax-numeric-separator@^7.8.3":
   version "7.10.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-syntax-object-rest-spread@^7.0.0", "@babel/plugin-syntax-object-rest-spread@^7.8.0":
+"@babel/plugin-syntax-object-rest-spread@^7.0.0", "@babel/plugin-syntax-object-rest-spread@^7.8.0", "@babel/plugin-syntax-object-rest-spread@^7.8.3":
   version "7.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-optional-catch-binding@^7.8.0":
+"@babel/plugin-syntax-optional-catch-binding@^7.8.0", "@babel/plugin-syntax-optional-catch-binding@^7.8.3":
   version "7.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz#6111a265bcfb020eb9efd0fdfd7d26402b9ed6c1"
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-optional-chaining@^7.0.0", "@babel/plugin-syntax-optional-chaining@^7.8.0":
+"@babel/plugin-syntax-optional-chaining@^7.0.0", "@babel/plugin-syntax-optional-chaining@^7.8.0", "@babel/plugin-syntax-optional-chaining@^7.8.3":
   version "7.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
   dependencies:
@@ -479,6 +622,12 @@
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.12.1.tgz#dd6c0b357ac1bb142d98537450a319625d13d2a0"
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
+
+"@babel/plugin-syntax-top-level-await@^7.8.3":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.12.13.tgz#c5f0fa6e249f5b739727f923540cf7a806130178"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-typescript@^7.12.1":
   version "7.12.1"
@@ -873,6 +1022,14 @@
     "@babel/parser" "^7.12.7"
     "@babel/types" "^7.12.7"
 
+"@babel/template@^7.12.13", "@babel/template@^7.3.3":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@babel/parser" "^7.12.13"
+    "@babel/types" "^7.12.13"
+
 "@babel/traverse@^7.0.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.10", "@babel/traverse@^7.12.5", "@babel/traverse@^7.9.0", "@babel/traverse@^7.9.6":
   version "7.12.12"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/traverse/-/traverse-7.12.12.tgz#d0cd87892704edd8da002d674bc811ce64743376"
@@ -887,6 +1044,20 @@
     globals "^11.1.0"
     lodash "^4.17.19"
 
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.13":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/traverse/-/traverse-7.12.13.tgz#689f0e4b4c08587ad26622832632735fb8c4e0c0"
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@babel/generator" "^7.12.13"
+    "@babel/helper-function-name" "^7.12.13"
+    "@babel/helper-split-export-declaration" "^7.12.13"
+    "@babel/parser" "^7.12.13"
+    "@babel/types" "^7.12.13"
+    debug "^4.1.0"
+    globals "^11.1.0"
+    lodash "^4.17.19"
+
 "@babel/types@^7.0.0", "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.12.1", "@babel/types@^7.12.10", "@babel/types@^7.12.11", "@babel/types@^7.12.12", "@babel/types@^7.12.5", "@babel/types@^7.12.7", "@babel/types@^7.4.4", "@babel/types@^7.9.0", "@babel/types@^7.9.6":
   version "7.12.12"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/types/-/types-7.12.12.tgz#4608a6ec313abbd87afa55004d373ad04a96c299"
@@ -894,6 +1065,18 @@
     "@babel/helper-validator-identifier" "^7.12.11"
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
+
+"@babel/types@^7.12.13", "@babel/types@^7.3.0", "@babel/types@^7.3.3":
+  version "7.12.13"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@babel/types/-/types-7.12.13.tgz#8be1aa8f2c876da11a9cf650c0ecf656913ad611"
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.12.11"
+    lodash "^4.17.19"
+    to-fast-properties "^2.0.0"
+
+"@bcoe/v8-coverage@^0.2.3":
+  version "0.2.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -932,9 +1115,45 @@
     xcode "^2.1.0"
     xml2js "^0.4.23"
 
+"@expo/config-plugins@1.0.18":
+  version "1.0.18"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/config-plugins/-/config-plugins-1.0.18.tgz#f0f7d36316d60ea67b4cc6394bffef6d6904345d"
+  dependencies:
+    "@expo/config-types" "^40.0.0-beta.2"
+    "@expo/configure-splash-screen" "0.3.3"
+    "@expo/image-utils" "0.3.10"
+    "@expo/json-file" "8.2.27"
+    "@expo/plist" "0.0.11"
+    find-up "~5.0.0"
+    fs-extra "9.0.0"
+    getenv "0.7.0"
+    glob "7.1.6"
+    resolve-from "^5.0.0"
+    slash "^3.0.0"
+    slugify "^1.3.4"
+    xcode "^2.1.0"
+    xml2js "^0.4.23"
+
 "@expo/config-types@^40.0.0-beta.2":
   version "40.0.0-beta.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/config-types/-/config-types-40.0.0-beta.2.tgz#4fea4ef5654d02218b02b0b3772529a9ce5b0471"
+
+"@expo/config@^3.2.3":
+  version "3.3.28"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/config/-/config-3.3.28.tgz#8d3869cf9223c35bff4f905595692cb36404c83f"
+  dependencies:
+    "@babel/core" "7.9.0"
+    "@expo/babel-preset-cli" "0.2.18"
+    "@expo/config-plugins" "1.0.18"
+    "@expo/config-types" "^40.0.0-beta.2"
+    "@expo/json-file" "8.2.27"
+    fs-extra "9.0.0"
+    getenv "0.7.0"
+    glob "7.1.6"
+    require-from-string "^2.0.2"
+    resolve-from "^5.0.0"
+    semver "7.3.2"
+    slugify "^1.3.4"
 
 "@expo/config@^3.3.18":
   version "3.3.23"
@@ -958,6 +1177,21 @@
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/configure-splash-screen/-/configure-splash-screen-0.3.2.tgz#394fc6d5bd11bd592f8035b837c6914dea9d8f91"
   dependencies:
     "@react-native-community/cli-platform-android" "^4.10.0"
+    "@react-native-community/cli-platform-ios" "^4.10.0"
+    color-string "^1.5.3"
+    commander "^5.1.0"
+    core-js "^3.6.5"
+    deep-equal "^2.0.3"
+    fs-extra "^9.0.0"
+    lodash "^4.17.15"
+    pngjs "^5.0.0"
+    xcode "^3.0.0"
+    xml-js "^1.6.11"
+
+"@expo/configure-splash-screen@0.3.3":
+  version "0.3.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/configure-splash-screen/-/configure-splash-screen-0.3.3.tgz#ef44ba4d62443297f9d8a9326a71b40b8b413528"
+  dependencies:
     "@react-native-community/cli-platform-ios" "^4.10.0"
     color-string "^1.5.3"
     commander "^5.1.0"
@@ -993,6 +1227,16 @@
     fs-extra "9.0.0"
     json5 "^1.0.1"
     lodash "^4.17.15"
+    write-file-atomic "^2.3.0"
+
+"@expo/json-file@8.2.27":
+  version "8.2.27"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@expo/json-file/-/json-file-8.2.27.tgz#548ff0a9989f9f789cdb2b689d17a4faf491de67"
+  dependencies:
+    "@babel/code-frame" "~7.10.4"
+    fs-extra "9.0.0"
+    json5 "^1.0.1"
+    lodash "^4.17.19"
     write-file-atomic "^2.3.0"
 
 "@expo/plist@0.0.11":
@@ -1057,6 +1301,20 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@istanbuljs/load-nyc-config@^1.0.0":
+  version "1.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
+  dependencies:
+    camelcase "^5.3.1"
+    find-up "^4.1.0"
+    get-package-type "^0.1.0"
+    js-yaml "^3.13.1"
+    resolve-from "^5.0.0"
+
+"@istanbuljs/schema@^0.1.2":
+  version "0.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
+
 "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -1064,6 +1322,110 @@
     "@jest/source-map" "^24.9.0"
     chalk "^2.0.1"
     slash "^2.0.0"
+
+"@jest/console@^25.5.0":
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/console/-/console-25.5.0.tgz#770800799d510f37329c508a9edd0b7b447d9abb"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    jest-message-util "^25.5.0"
+    jest-util "^25.5.0"
+    slash "^3.0.0"
+
+"@jest/console@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/console/-/console-26.6.2.tgz#4e04bc464014358b03ab4937805ee36a0aeb98f2"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^26.6.2"
+    jest-util "^26.6.2"
+    slash "^3.0.0"
+
+"@jest/core@^25.5.4":
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/core/-/core-25.5.4.tgz#3ef7412f7339210f003cdf36646bbca786efe7b4"
+  dependencies:
+    "@jest/console" "^25.5.0"
+    "@jest/reporters" "^25.5.1"
+    "@jest/test-result" "^25.5.0"
+    "@jest/transform" "^25.5.1"
+    "@jest/types" "^25.5.0"
+    ansi-escapes "^4.2.1"
+    chalk "^3.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    jest-changed-files "^25.5.0"
+    jest-config "^25.5.4"
+    jest-haste-map "^25.5.1"
+    jest-message-util "^25.5.0"
+    jest-regex-util "^25.2.6"
+    jest-resolve "^25.5.1"
+    jest-resolve-dependencies "^25.5.4"
+    jest-runner "^25.5.4"
+    jest-runtime "^25.5.4"
+    jest-snapshot "^25.5.1"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    jest-watcher "^25.5.0"
+    micromatch "^4.0.2"
+    p-each-series "^2.1.0"
+    realpath-native "^2.0.0"
+    rimraf "^3.0.0"
+    slash "^3.0.0"
+    strip-ansi "^6.0.0"
+
+"@jest/core@^26.6.3":
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/core/-/core-26.6.3.tgz#7639fcb3833d748a4656ada54bde193051e45fad"
+  dependencies:
+    "@jest/console" "^26.6.2"
+    "@jest/reporters" "^26.6.2"
+    "@jest/test-result" "^26.6.2"
+    "@jest/transform" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    ansi-escapes "^4.2.1"
+    chalk "^4.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    jest-changed-files "^26.6.2"
+    jest-config "^26.6.3"
+    jest-haste-map "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-regex-util "^26.0.0"
+    jest-resolve "^26.6.2"
+    jest-resolve-dependencies "^26.6.3"
+    jest-runner "^26.6.3"
+    jest-runtime "^26.6.3"
+    jest-snapshot "^26.6.2"
+    jest-util "^26.6.2"
+    jest-validate "^26.6.2"
+    jest-watcher "^26.6.2"
+    micromatch "^4.0.2"
+    p-each-series "^2.1.0"
+    rimraf "^3.0.0"
+    slash "^3.0.0"
+    strip-ansi "^6.0.0"
+
+"@jest/environment@^25.5.0":
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/environment/-/environment-25.5.0.tgz#aa33b0c21a716c65686638e7ef816c0e3a0c7b37"
+  dependencies:
+    "@jest/fake-timers" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    jest-mock "^25.5.0"
+
+"@jest/environment@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/environment/-/environment-26.6.2.tgz#ba364cc72e221e79cc8f0a99555bf5d7577cf92c"
+  dependencies:
+    "@jest/fake-timers" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    jest-mock "^26.6.2"
 
 "@jest/fake-timers@^24.9.0":
   version "24.9.0"
@@ -1073,12 +1435,127 @@
     jest-message-util "^24.9.0"
     jest-mock "^24.9.0"
 
+"@jest/fake-timers@^25.5.0":
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/fake-timers/-/fake-timers-25.5.0.tgz#46352e00533c024c90c2bc2ad9f2959f7f114185"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    jest-message-util "^25.5.0"
+    jest-mock "^25.5.0"
+    jest-util "^25.5.0"
+    lolex "^5.0.0"
+
+"@jest/fake-timers@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/fake-timers/-/fake-timers-26.6.2.tgz#459c329bcf70cee4af4d7e3f3e67848123535aad"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    "@sinonjs/fake-timers" "^6.0.1"
+    "@types/node" "*"
+    jest-message-util "^26.6.2"
+    jest-mock "^26.6.2"
+    jest-util "^26.6.2"
+
+"@jest/globals@^25.5.2":
+  version "25.5.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/globals/-/globals-25.5.2.tgz#5e45e9de8d228716af3257eeb3991cc2e162ca88"
+  dependencies:
+    "@jest/environment" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    expect "^25.5.0"
+
+"@jest/globals@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/globals/-/globals-26.6.2.tgz#5b613b78a1aa2655ae908eba638cc96a20df720a"
+  dependencies:
+    "@jest/environment" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    expect "^26.6.2"
+
+"@jest/reporters@^25.5.1":
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/reporters/-/reporters-25.5.1.tgz#cb686bcc680f664c2dbaf7ed873e93aa6811538b"
+  dependencies:
+    "@bcoe/v8-coverage" "^0.2.3"
+    "@jest/console" "^25.5.0"
+    "@jest/test-result" "^25.5.0"
+    "@jest/transform" "^25.5.1"
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    collect-v8-coverage "^1.0.0"
+    exit "^0.1.2"
+    glob "^7.1.2"
+    graceful-fs "^4.2.4"
+    istanbul-lib-coverage "^3.0.0"
+    istanbul-lib-instrument "^4.0.0"
+    istanbul-lib-report "^3.0.0"
+    istanbul-lib-source-maps "^4.0.0"
+    istanbul-reports "^3.0.2"
+    jest-haste-map "^25.5.1"
+    jest-resolve "^25.5.1"
+    jest-util "^25.5.0"
+    jest-worker "^25.5.0"
+    slash "^3.0.0"
+    source-map "^0.6.0"
+    string-length "^3.1.0"
+    terminal-link "^2.0.0"
+    v8-to-istanbul "^4.1.3"
+  optionalDependencies:
+    node-notifier "^6.0.0"
+
+"@jest/reporters@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/reporters/-/reporters-26.6.2.tgz#1f518b99637a5f18307bd3ecf9275f6882a667f6"
+  dependencies:
+    "@bcoe/v8-coverage" "^0.2.3"
+    "@jest/console" "^26.6.2"
+    "@jest/test-result" "^26.6.2"
+    "@jest/transform" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    chalk "^4.0.0"
+    collect-v8-coverage "^1.0.0"
+    exit "^0.1.2"
+    glob "^7.1.2"
+    graceful-fs "^4.2.4"
+    istanbul-lib-coverage "^3.0.0"
+    istanbul-lib-instrument "^4.0.3"
+    istanbul-lib-report "^3.0.0"
+    istanbul-lib-source-maps "^4.0.0"
+    istanbul-reports "^3.0.2"
+    jest-haste-map "^26.6.2"
+    jest-resolve "^26.6.2"
+    jest-util "^26.6.2"
+    jest-worker "^26.6.2"
+    slash "^3.0.0"
+    source-map "^0.6.0"
+    string-length "^4.0.1"
+    terminal-link "^2.0.0"
+    v8-to-istanbul "^7.0.0"
+  optionalDependencies:
+    node-notifier "^8.0.0"
+
 "@jest/source-map@^24.9.0":
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/source-map/-/source-map-24.9.0.tgz#0e263a94430be4b41da683ccc1e6bffe2a191714"
   dependencies:
     callsites "^3.0.0"
     graceful-fs "^4.1.15"
+    source-map "^0.6.0"
+
+"@jest/source-map@^25.5.0":
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/source-map/-/source-map-25.5.0.tgz#df5c20d6050aa292c2c6d3f0d2c7606af315bd1b"
+  dependencies:
+    callsites "^3.0.0"
+    graceful-fs "^4.2.4"
+    source-map "^0.6.0"
+
+"@jest/source-map@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/source-map/-/source-map-26.6.2.tgz#29af5e1e2e324cafccc936f218309f54ab69d535"
+  dependencies:
+    callsites "^3.0.0"
+    graceful-fs "^4.2.4"
     source-map "^0.6.0"
 
 "@jest/test-result@^24.9.0":
@@ -1088,6 +1565,85 @@
     "@jest/console" "^24.9.0"
     "@jest/types" "^24.9.0"
     "@types/istanbul-lib-coverage" "^2.0.0"
+
+"@jest/test-result@^25.5.0":
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/test-result/-/test-result-25.5.0.tgz#139a043230cdeffe9ba2d8341b27f2efc77ce87c"
+  dependencies:
+    "@jest/console" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    collect-v8-coverage "^1.0.0"
+
+"@jest/test-result@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/test-result/-/test-result-26.6.2.tgz#55da58b62df134576cc95476efa5f7949e3f5f18"
+  dependencies:
+    "@jest/console" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    collect-v8-coverage "^1.0.0"
+
+"@jest/test-sequencer@^25.5.4":
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/test-sequencer/-/test-sequencer-25.5.4.tgz#9b4e685b36954c38d0f052e596d28161bdc8b737"
+  dependencies:
+    "@jest/test-result" "^25.5.0"
+    graceful-fs "^4.2.4"
+    jest-haste-map "^25.5.1"
+    jest-runner "^25.5.4"
+    jest-runtime "^25.5.4"
+
+"@jest/test-sequencer@^26.6.3":
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/test-sequencer/-/test-sequencer-26.6.3.tgz#98e8a45100863886d074205e8ffdc5a7eb582b17"
+  dependencies:
+    "@jest/test-result" "^26.6.2"
+    graceful-fs "^4.2.4"
+    jest-haste-map "^26.6.2"
+    jest-runner "^26.6.3"
+    jest-runtime "^26.6.3"
+
+"@jest/transform@^25.5.1":
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/transform/-/transform-25.5.1.tgz#0469ddc17699dd2bf985db55fa0fb9309f5c2db3"
+  dependencies:
+    "@babel/core" "^7.1.0"
+    "@jest/types" "^25.5.0"
+    babel-plugin-istanbul "^6.0.0"
+    chalk "^3.0.0"
+    convert-source-map "^1.4.0"
+    fast-json-stable-stringify "^2.0.0"
+    graceful-fs "^4.2.4"
+    jest-haste-map "^25.5.1"
+    jest-regex-util "^25.2.6"
+    jest-util "^25.5.0"
+    micromatch "^4.0.2"
+    pirates "^4.0.1"
+    realpath-native "^2.0.0"
+    slash "^3.0.0"
+    source-map "^0.6.1"
+    write-file-atomic "^3.0.0"
+
+"@jest/transform@^26.6.2":
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@jest/transform/-/transform-26.6.2.tgz#5ac57c5fa1ad17b2aae83e73e45813894dcf2e4b"
+  dependencies:
+    "@babel/core" "^7.1.0"
+    "@jest/types" "^26.6.2"
+    babel-plugin-istanbul "^6.0.0"
+    chalk "^4.0.0"
+    convert-source-map "^1.4.0"
+    fast-json-stable-stringify "^2.0.0"
+    graceful-fs "^4.2.4"
+    jest-haste-map "^26.6.2"
+    jest-regex-util "^26.0.0"
+    jest-util "^26.6.2"
+    micromatch "^4.0.2"
+    pirates "^4.0.1"
+    slash "^3.0.0"
+    source-map "^0.6.1"
+    write-file-atomic "^3.0.0"
 
 "@jest/types@^24.9.0":
   version "24.9.0"
@@ -1490,7 +2046,60 @@
   version "2.6.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@react-native-community/hooks/-/hooks-2.6.0.tgz#dd5f19601eb3684c6bcdd3df3d0c04cf44c24cff"
 
-"@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
+"@sinonjs/commons@^1.7.0":
+  version "1.8.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
+  dependencies:
+    type-detect "4.0.8"
+
+"@sinonjs/fake-timers@^6.0.1":
+  version "6.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@sinonjs/fake-timers/-/fake-timers-6.0.1.tgz#293674fccb3262ac782c7aadfdeca86b10c75c40"
+  dependencies:
+    "@sinonjs/commons" "^1.7.0"
+
+"@testing-library/react-native@^7.1.0":
+  version "7.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@testing-library/react-native/-/react-native-7.1.0.tgz#6b168aac21522c8a5175461b350336fd79612ac9"
+  dependencies:
+    pretty-format "^26.0.1"
+
+"@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
+  version "7.1.12"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/babel__core/-/babel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
+  dependencies:
+    "@babel/parser" "^7.1.0"
+    "@babel/types" "^7.0.0"
+    "@types/babel__generator" "*"
+    "@types/babel__template" "*"
+    "@types/babel__traverse" "*"
+
+"@types/babel__generator@*":
+  version "7.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/babel__generator/-/babel__generator-7.6.2.tgz#f3d71178e187858f7c45e30380f8f1b7415a12d8"
+  dependencies:
+    "@babel/types" "^7.0.0"
+
+"@types/babel__template@*":
+  version "7.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/babel__template/-/babel__template-7.4.0.tgz#0c888dd70b3ee9eebb6e4f200e809da0076262be"
+  dependencies:
+    "@babel/parser" "^7.1.0"
+    "@babel/types" "^7.0.0"
+
+"@types/babel__traverse@*", "@types/babel__traverse@^7.0.4", "@types/babel__traverse@^7.0.6":
+  version "7.11.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/babel__traverse/-/babel__traverse-7.11.0.tgz#b9a1efa635201ba9bc850323a8793ee2d36c04a0"
+  dependencies:
+    "@babel/types" "^7.3.0"
+
+"@types/graceful-fs@^4.1.2":
+  version "4.1.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/graceful-fs/-/graceful-fs-4.1.4.tgz#4ff9f641a7c6d1a3508ff88bc3141b152772e753"
+  dependencies:
+    "@types/node" "*"
+
+"@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
 
@@ -1513,9 +2122,28 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
+"@types/jest@^26.0.20":
+  version "26.0.20"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/jest/-/jest-26.0.20.tgz#cd2f2702ecf69e86b586e1f5223a60e454056307"
+  dependencies:
+    jest-diff "^26.0.0"
+    pretty-format "^26.0.0"
+
 "@types/node@*":
   version "14.14.22"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/node/-/node-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
+
+"@types/normalize-package-data@^2.4.0":
+  version "2.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
+
+"@types/prettier@^1.19.0":
+  version "1.19.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/prettier/-/prettier-1.19.1.tgz#33509849f8e679e4add158959fdb086440e9553f"
+
+"@types/prettier@^2.0.0":
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/prettier/-/prettier-2.2.0.tgz#a4e8205a4955690eef712a6d0394a1d2e121e721"
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -1558,6 +2186,10 @@
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
 
+"@types/stack-utils@^2.0.0":
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
+
 "@types/yargs-parser@*":
   version "20.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/@types/yargs-parser/-/yargs-parser-20.2.0.tgz#dd3e6699ba3237f0348cd085e4698780204842f9"
@@ -1587,6 +2219,10 @@
     invariant "^2.2.4"
     lodash "^4.5.0"
 
+abab@^2.0.0, abab@^2.0.3:
+  version "2.0.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
@@ -1603,6 +2239,45 @@ accepts@~1.3.5, accepts@~1.3.7:
   dependencies:
     mime-types "~2.1.24"
     negotiator "0.6.2"
+
+acorn-globals@^4.3.2:
+  version "4.3.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn-globals/-/acorn-globals-4.3.4.tgz#9fa1926addc11c97308c4e66d7add0d40c3272e7"
+  dependencies:
+    acorn "^6.0.1"
+    acorn-walk "^6.0.1"
+
+acorn-globals@^6.0.0:
+  version "6.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn-globals/-/acorn-globals-6.0.0.tgz#46cdd39f0f8ff08a876619b55f5ac8a6dc770b45"
+  dependencies:
+    acorn "^7.1.1"
+    acorn-walk "^7.1.1"
+
+acorn-walk@^6.0.1:
+  version "6.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn-walk/-/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
+
+acorn-walk@^7.1.1:
+  version "7.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
+
+acorn@^6.0.1:
+  version "6.4.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn/-/acorn-6.4.2.tgz#35866fd710528e92de10cf06016498e47e39e1e6"
+
+acorn@^7.1.0, acorn@^7.1.1:
+  version "7.4.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
+
+ajv@^6.12.3:
+  version "6.12.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
 
 anser@^1.4.9:
   version "1.4.10"
@@ -1623,6 +2298,12 @@ ansi-cyan@^0.1.1:
 ansi-escapes@^3.0.0:
   version "3.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
+
+ansi-escapes@^4.2.1, ansi-escapes@^4.3.0:
+  version "4.3.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ansi-escapes/-/ansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
+  dependencies:
+    type-fest "^0.11.0"
 
 ansi-fragments@^0.2.1:
   version "0.2.1"
@@ -1683,6 +2364,13 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
+anymatch@^3.0.3:
+  version "3.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/anymatch/-/anymatch-3.1.1.tgz#c55ecf02185e2469259399310c173ce31233b142"
+  dependencies:
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
+
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -1716,6 +2404,10 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
+array-equal@^1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
+
 array-filter@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/array-filter/-/array-filter-1.0.0.tgz#baf79e62e6ef4c2a4c0b831232daffec251f9d83"
@@ -1748,6 +2440,16 @@ asap@~2.0.3, asap@~2.0.6:
   version "2.0.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
+asn1@~0.2.3:
+  version "0.2.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
+  dependencies:
+    safer-buffer "~2.1.0"
+
+assert-plus@1.0.0, assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
@@ -1761,6 +2463,10 @@ async@^2.4.0:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
   dependencies:
     lodash "^4.17.14"
+
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
 at-least-node@^1.0.0:
   version "1.0.0"
@@ -1776,11 +2482,72 @@ available-typed-arrays@^1.0.2:
   dependencies:
     array-filter "^1.0.0"
 
+aws-sign2@~0.7.0:
+  version "0.7.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
+
+aws4@^1.8.0:
+  version "1.11.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
+
+babel-jest@^25.2.0, babel-jest@^25.5.1:
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-jest/-/babel-jest-25.5.1.tgz#bc2e6101f849d6f6aec09720ffc7bc5332e62853"
+  dependencies:
+    "@jest/transform" "^25.5.1"
+    "@jest/types" "^25.5.0"
+    "@types/babel__core" "^7.1.7"
+    babel-plugin-istanbul "^6.0.0"
+    babel-preset-jest "^25.5.0"
+    chalk "^3.0.0"
+    graceful-fs "^4.2.4"
+    slash "^3.0.0"
+
+babel-jest@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-jest/-/babel-jest-26.6.3.tgz#d87d25cb0037577a0c89f82e5755c5d293c01056"
+  dependencies:
+    "@jest/transform" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/babel__core" "^7.1.7"
+    babel-plugin-istanbul "^6.0.0"
+    babel-preset-jest "^26.6.2"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.4"
+    slash "^3.0.0"
+
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-istanbul@^6.0.0:
+  version "6.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-plugin-istanbul/-/babel-plugin-istanbul-6.0.0.tgz#e159ccdc9af95e0b570c75b4573b7c34d671d765"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@istanbuljs/load-nyc-config" "^1.0.0"
+    "@istanbuljs/schema" "^0.1.2"
+    istanbul-lib-instrument "^4.0.0"
+    test-exclude "^6.0.0"
+
+babel-plugin-jest-hoist@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-25.5.0.tgz#129c80ba5c7fc75baf3a45b93e2e372d57ca2677"
+  dependencies:
+    "@babel/template" "^7.3.3"
+    "@babel/types" "^7.3.3"
+    "@types/babel__traverse" "^7.0.6"
+
+babel-plugin-jest-hoist@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-26.6.2.tgz#8185bd030348d254c6d7dd974355e6a28b21e62d"
+  dependencies:
+    "@babel/template" "^7.3.3"
+    "@babel/types" "^7.3.3"
+    "@types/babel__core" "^7.0.0"
+    "@types/babel__traverse" "^7.0.6"
 
 babel-plugin-module-resolver@^3.2.0:
   version "3.2.0"
@@ -1799,6 +2566,39 @@ babel-plugin-react-native-web@~0.13.6:
 babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
+
+babel-preset-current-node-syntax@^0.1.2:
+  version "0.1.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-preset-current-node-syntax/-/babel-preset-current-node-syntax-0.1.4.tgz#826f1f8e7245ad534714ba001f84f7e906c3b615"
+  dependencies:
+    "@babel/plugin-syntax-async-generators" "^7.8.4"
+    "@babel/plugin-syntax-bigint" "^7.8.3"
+    "@babel/plugin-syntax-class-properties" "^7.8.3"
+    "@babel/plugin-syntax-import-meta" "^7.8.3"
+    "@babel/plugin-syntax-json-strings" "^7.8.3"
+    "@babel/plugin-syntax-logical-assignment-operators" "^7.8.3"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-syntax-numeric-separator" "^7.8.3"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+
+babel-preset-current-node-syntax@^1.0.0:
+  version "1.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-preset-current-node-syntax/-/babel-preset-current-node-syntax-1.0.1.tgz#b4399239b89b2a011f9ddbe3e4f401fc40cff73b"
+  dependencies:
+    "@babel/plugin-syntax-async-generators" "^7.8.4"
+    "@babel/plugin-syntax-bigint" "^7.8.3"
+    "@babel/plugin-syntax-class-properties" "^7.8.3"
+    "@babel/plugin-syntax-import-meta" "^7.8.3"
+    "@babel/plugin-syntax-json-strings" "^7.8.3"
+    "@babel/plugin-syntax-logical-assignment-operators" "^7.8.3"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-syntax-numeric-separator" "^7.8.3"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+    "@babel/plugin-syntax-top-level-await" "^7.8.3"
 
 babel-preset-expo@~8.3.0:
   version "8.3.0"
@@ -1842,6 +2642,20 @@ babel-preset-fbjs@^3.2.0, babel-preset-fbjs@^3.3.0:
     "@babel/plugin-transform-template-literals" "^7.0.0"
     babel-plugin-syntax-trailing-function-commas "^7.0.0-beta.0"
 
+babel-preset-jest@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-preset-jest/-/babel-preset-jest-25.5.0.tgz#c1d7f191829487a907764c65307faa0e66590b49"
+  dependencies:
+    babel-plugin-jest-hoist "^25.5.0"
+    babel-preset-current-node-syntax "^0.1.2"
+
+babel-preset-jest@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/babel-preset-jest/-/babel-preset-jest-26.6.2.tgz#747872b1171df032252426586881d62d31798fee"
+  dependencies:
+    babel-plugin-jest-hoist "^26.6.2"
+    babel-preset-current-node-syntax "^1.0.0"
+
 badgin@^1.1.2:
   version "1.2.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/badgin/-/badgin-1.2.2.tgz#cbb0b71b047230c681a68911eb24136f0632adc6"
@@ -1865,6 +2679,12 @@ base@^0.11.1:
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
+
+bcrypt-pbkdf@^1.0.0:
+  version "1.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
+  dependencies:
+    tweetnacl "^0.14.3"
 
 big-integer@^1.6.44:
   version "1.6.48"
@@ -1917,6 +2737,22 @@ braces@^2.3.1:
     snapdragon-node "^2.0.1"
     split-string "^3.0.2"
     to-regex "^3.0.1"
+
+braces@^3.0.1:
+  version "3.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  dependencies:
+    fill-range "^7.0.1"
+
+browser-process-hrtime@^1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
+
+browser-resolve@^1.11.3:
+  version "1.11.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/browser-resolve/-/browser-resolve-1.11.3.tgz#9b7cbb3d0f510e4cb86bdbd796124d28b5890af6"
+  dependencies:
+    resolve "1.1.7"
 
 browserslist@^4.14.5, browserslist@^4.16.1:
   version "4.16.1"
@@ -2017,6 +2853,10 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   version "5.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
 
+camelcase@^6.0.0:
+  version "6.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
+
 caniuse-lite@^1.0.30001173:
   version "1.0.30001179"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
@@ -2026,6 +2866,10 @@ capture-exit@^2.0.0:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/capture-exit/-/capture-exit-2.0.0.tgz#fb953bfaebeb781f62898239dabb426d08a509a4"
   dependencies:
     rsvp "^4.8.4"
+
+caseless@~0.12.0:
+  version "0.12.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
 chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -2049,6 +2893,10 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+char-regex@^1.0.2:
+  version "1.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
+
 chardet@^0.4.0:
   version "0.4.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
@@ -2056,6 +2904,10 @@ chardet@^0.4.0:
 ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
+
+cjs-module-lexer@^0.6.0:
+  version "0.6.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cjs-module-lexer/-/cjs-module-lexer-0.6.0.tgz#4186fcca0eae175970aee870b9fe2d6cf8d5655f"
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2100,6 +2952,14 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
+co@^4.6.0:
+  version "4.6.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
+
+collect-v8-coverage@^1.0.0:
+  version "1.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -2141,6 +3001,12 @@ color-support@^1.1.3:
 colorette@^1.0.7, colorette@^1.2.1:
   version "1.2.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
+
+combined-stream@^1.0.6, combined-stream@~1.0.6:
+  version "1.0.8"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  dependencies:
+    delayed-stream "~1.0.0"
 
 command-exists@^1.2.8:
   version "1.2.9"
@@ -2210,7 +3076,7 @@ connect@^3.6.5:
     parseurl "~1.3.3"
     utils-merge "1.0.1"
 
-convert-source-map@^1.7.0:
+convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
   dependencies:
@@ -2239,7 +3105,7 @@ core-js@^3.6.5:
   version "3.8.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/core-js/-/core-js-3.8.3.tgz#c21906e1f14f3689f93abcc6e26883550dd92dd0"
 
-core-util-is@~1.0.0:
+core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
@@ -2259,6 +3125,12 @@ create-react-class@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+cross-fetch@^3.0.4:
+  version "3.0.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cross-fetch/-/cross-fetch-3.0.6.tgz#3a4040bc8941e653e0e9cf17f29ebcd177d3365c"
+  dependencies:
+    node-fetch "2.6.1"
+
 cross-spawn@^5.1.0:
   version "5.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -2277,6 +3149,14 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
+cross-spawn@^7.0.0:
+  version "7.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
+
 crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
@@ -2288,9 +3168,45 @@ css-in-js-utils@^2.0.0:
     hyphenate-style-name "^1.0.2"
     isobject "^3.0.1"
 
+cssom@^0.4.1, cssom@^0.4.4:
+  version "0.4.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cssom/-/cssom-0.4.4.tgz#5a66cf93d2d0b661d80bf6a44fb65f5c2e4e0a10"
+
+cssom@~0.3.6:
+  version "0.3.8"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cssom/-/cssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
+
+cssstyle@^2.0.0, cssstyle@^2.2.0:
+  version "2.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/cssstyle/-/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
+  dependencies:
+    cssom "~0.3.6"
+
 csstype@^3.0.2:
   version "3.0.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/csstype/-/csstype-3.0.6.tgz#865d0b5833d7d8d40f4e5b8a6d76aea3de4725ef"
+
+dashdash@^1.12.0:
+  version "1.14.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
+  dependencies:
+    assert-plus "^1.0.0"
+
+data-urls@^1.1.0:
+  version "1.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/data-urls/-/data-urls-1.1.0.tgz#15ee0582baa5e22bb59c77140da8f9c76963bbfe"
+  dependencies:
+    abab "^2.0.0"
+    whatwg-mimetype "^2.2.0"
+    whatwg-url "^7.0.0"
+
+data-urls@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/data-urls/-/data-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
+  dependencies:
+    abab "^2.0.3"
+    whatwg-mimetype "^2.3.0"
+    whatwg-url "^8.0.0"
 
 dayjs@^1.8.15:
   version "1.10.4"
@@ -2302,7 +3218,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^4.1.0:
+debug@^4.1.0, debug@^4.1.1:
   version "4.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   dependencies:
@@ -2311,6 +3227,10 @@ debug@^4.1.0:
 decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
+
+decimal.js@^10.2.0:
+  version "10.2.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/decimal.js/-/decimal.js-10.2.1.tgz#238ae7b0f0c793d3e3cea410108b35a2c01426a3"
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -2342,9 +3262,17 @@ deep-equal@^2.0.3:
     which-collection "^1.0.1"
     which-typed-array "^1.1.2"
 
+deep-is@~0.1.3:
+  version "0.1.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
+
 deepmerge@^3.2.0:
   version "3.3.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/deepmerge/-/deepmerge-3.3.0.tgz#d3c47fd6f3a93d517b14426b0628a17b0125f5f7"
+
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
 
 defaults@^1.0.3:
   version "1.0.3"
@@ -2377,6 +3305,10 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+
 denodeify@^1.2.1:
   version "1.2.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/denodeify/-/denodeify-1.2.1.tgz#3a36287f5034e699e7577901052c2e6c94251631"
@@ -2389,9 +3321,40 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
 
+detect-newline@^3.0.0:
+  version "3.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+
+diff-sequences@^25.2.6:
+  version "25.2.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/diff-sequences/-/diff-sequences-25.2.6.tgz#5f467c00edd35352b7bca46d7927d60e687a76dd"
+
+diff-sequences@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/diff-sequences/-/diff-sequences-26.6.2.tgz#48ba99157de1923412eed41db6b6d4aa9ca7c0b1"
+
 dom-walk@^0.1.0:
   version "0.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/dom-walk/-/dom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
+
+domexception@^1.0.1:
+  version "1.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/domexception/-/domexception-1.0.1.tgz#937442644ca6a31261ef36e3ec677fe805582c90"
+  dependencies:
+    webidl-conversions "^4.0.2"
+
+domexception@^2.0.1:
+  version "2.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/domexception/-/domexception-2.0.1.tgz#fb44aefba793e1574b0af6aed2801d057529f304"
+  dependencies:
+    webidl-conversions "^5.0.0"
+
+ecc-jsbn@~0.1.1:
+  version "0.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
+  dependencies:
+    jsbn "~0.1.0"
+    safer-buffer "^2.1.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -2400,6 +3363,10 @@ ee-first@1.1.1:
 electron-to-chromium@^1.3.634:
   version "1.3.644"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/electron-to-chromium/-/electron-to-chromium-1.3.644.tgz#c89721733ec26b8d117275fb6b2acbeb3d45a6b6"
+
+emittery@^0.7.1:
+  version "0.7.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/emittery/-/emittery-0.7.2.tgz#25595908e13af0f5674ab419396e2fb394cdfa82"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -2498,9 +3465,24 @@ escape-string-regexp@^2.0.0:
   version "2.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
 
-esprima@^4.0.0:
+escodegen@^1.11.1, escodegen@^1.14.1:
+  version "1.14.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/escodegen/-/escodegen-1.14.3.tgz#4e7b81fba61581dc97582ed78cab7f0e8d63f503"
+  dependencies:
+    esprima "^4.0.1"
+    estraverse "^4.2.0"
+    esutils "^2.0.2"
+    optionator "^0.8.1"
+  optionalDependencies:
+    source-map "~0.6.1"
+
+esprima@^4.0.0, esprima@^4.0.1:
   version "4.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+
+estraverse@^4.2.0:
+  version "4.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -2534,9 +3516,42 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+execa@^3.2.0:
+  version "3.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/execa/-/execa-3.4.0.tgz#c08ed4550ef65d858fac269ffc8572446f37eb89"
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    p-finally "^2.0.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.0:
+  version "4.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
 exif-parser@^0.1.12:
   version "0.1.12"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/exif-parser/-/exif-parser-0.1.12.tgz#58a9d2d72c02c1f6f02a0ef4a9166272b7760922"
+
+exit@^0.1.2:
+  version "0.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -2549,6 +3564,28 @@ expand-brackets@^2.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+expect@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/expect/-/expect-25.5.0.tgz#f07f848712a2813bb59167da3fb828ca21f58bba"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    ansi-styles "^4.0.0"
+    jest-get-type "^25.2.6"
+    jest-matcher-utils "^25.5.0"
+    jest-message-util "^25.5.0"
+    jest-regex-util "^25.2.6"
+
+expect@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/expect/-/expect-26.6.2.tgz#c6b996bf26bf3fe18b67b2d0f51fc981ba934417"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    ansi-styles "^4.0.0"
+    jest-get-type "^26.3.0"
+    jest-matcher-utils "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-regex-util "^26.0.0"
 
 expo-application@~2.4.1:
   version "2.4.1"
@@ -2695,6 +3732,10 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
+extend@~3.0.2:
+  version "3.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+
 external-editor@^2.0.4:
   version "2.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
@@ -2716,6 +3757,14 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+extsprintf@1.3.0:
+  version "1.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
+
 fancy-log@^1.3.2:
   version "1.3.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fancy-log/-/fancy-log-1.3.3.tgz#dbc19154f558690150a23953a0adbd035be45fc7"
@@ -2724,6 +3773,18 @@ fancy-log@^1.3.2:
     color-support "^1.1.3"
     parse-node-version "^1.0.0"
     time-stamp "^1.0.0"
+
+fast-deep-equal@^3.1.1:
+  version "3.1.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+
+fast-json-stable-stringify@^2.0.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+
+fast-levenshtein@~2.0.6:
+  version "2.0.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
 fb-watchman@^2.0.0:
   version "2.0.1"
@@ -2804,6 +3865,12 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  dependencies:
+    to-regex-range "^5.0.1"
+
 finalhandler@1.1.2:
   version "1.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/finalhandler/-/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -2843,7 +3910,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.1.0:
+find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   dependencies:
@@ -2868,6 +3935,18 @@ for-in@^1.0.2:
 foreach@^2.0.5:
   version "2.0.5"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+
+forever-agent@~0.6.1:
+  version "0.6.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
+
+form-data@~2.3.2:
+  version "2.3.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
 
 fragment-cache@^0.2.1:
   version "0.2.1"
@@ -2924,6 +4003,10 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
+fsevents@^2.1.2:
+  version "2.3.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -2944,9 +4027,19 @@ get-intrinsic@^1.0.1, get-intrinsic@^1.0.2:
     has "^1.0.3"
     has-symbols "^1.0.1"
 
+get-package-type@^0.1.0:
+  version "0.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/get-package-type/-/get-package-type-0.1.0.tgz#8de2d803cff44df3bc6c456e6668b36c3926e11a"
+
 get-stream@^4.0.0:
   version "4.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
+  dependencies:
+    pump "^3.0.0"
+
+get-stream@^5.0.0:
+  version "5.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
   dependencies:
     pump "^3.0.0"
 
@@ -2958,7 +4051,13 @@ getenv@0.7.0:
   version "0.7.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/getenv/-/getenv-0.7.0.tgz#39b91838707e2086fd1cf6ef8777d1c93e14649e"
 
-glob@7.1.6, glob@^7.1.2, glob@^7.1.3:
+getpass@^0.1.1:
+  version "0.1.7"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
+  dependencies:
+    assert-plus "^1.0.0"
+
+glob@7.1.6, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
   version "7.1.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   dependencies:
@@ -2983,6 +4082,25 @@ globals@^11.1.0:
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0:
   version "4.2.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
+
+graceful-fs@^4.2.4:
+  version "4.2.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/graceful-fs/-/graceful-fs-4.2.5.tgz#bc18864a6c9fc7b303f2e2abdb9155ad178fbe29"
+
+growly@^1.3.0:
+  version "1.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
+
+har-schema@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
+
+har-validator@~5.1.3:
+  version "5.1.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/har-validator/-/har-validator-5.1.5.tgz#1f0803b9f8cb20c0fa13822df1ecddb36bde1efd"
+  dependencies:
+    ajv "^6.12.3"
+    har-schema "^2.0.0"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -3039,6 +4157,26 @@ hermes-profile-transformer@^0.0.6:
   dependencies:
     source-map "^0.7.3"
 
+hosted-git-info@^2.1.4:
+  version "2.8.8"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
+
+html-encoding-sniffer@^1.0.2:
+  version "1.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
+  dependencies:
+    whatwg-encoding "^1.0.1"
+
+html-encoding-sniffer@^2.0.1:
+  version "2.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
+  dependencies:
+    whatwg-encoding "^1.0.5"
+
+html-escaper@^2.0.0:
+  version "2.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
+
 http-errors@~1.7.2:
   version "1.7.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/http-errors/-/http-errors-1.7.3.tgz#6c619e4f9c60308c38519498c14fbb10aacebb06"
@@ -3049,11 +4187,23 @@ http-errors@~1.7.2:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
+http-signature@~1.2.0:
+  version "1.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/http-signature/-/http-signature-1.2.0.tgz#9aecd925114772f3d95b65a60abb8f7c18fbace1"
+  dependencies:
+    assert-plus "^1.0.0"
+    jsprim "^1.2.2"
+    sshpk "^1.7.0"
+
+human-signals@^1.1.1:
+  version "1.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
+
 hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
   version "1.0.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
 
-iconv-lite@^0.4.17:
+iconv-lite@0.4.24, iconv-lite@^0.4.17:
   version "0.4.24"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
@@ -3083,6 +4233,13 @@ import-fresh@^2.0.0:
   dependencies:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
+
+import-local@^3.0.2:
+  version "3.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/import-local/-/import-local-3.0.2.tgz#a8cfd0431d1de4a2199703d003e3e62364fa6db6"
+  dependencies:
+    pkg-dir "^4.2.0"
+    resolve-cwd "^3.0.0"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -3129,6 +4286,10 @@ invariant@^2.2.2, invariant@^2.2.4:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
     loose-envify "^1.0.0"
+
+ip-regex@^2.1.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
 
 ip@^1.1.5:
   version "1.1.5"
@@ -3226,6 +4387,10 @@ is-directory@^0.3.1:
   version "0.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
 
+is-docker@^2.0.0:
+  version "2.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-docker/-/is-docker-2.1.1.tgz#4125a88e44e450d384e09047ede71adc2d144156"
+
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
@@ -3248,6 +4413,10 @@ is-function@^1.0.1:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-function/-/is-function-1.0.2.tgz#4f097f30abf6efadac9833b17ca5dc03f8144e08"
 
+is-generator-fn@^2.0.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-generator-fn/-/is-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
+
 is-map@^2.0.1:
   version "2.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-map/-/is-map-2.0.2.tgz#00922db8c9bf73e81b7a335827bc2a43f2b91127"
@@ -3266,6 +4435,10 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+
 is-obj@^1.0.0:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
@@ -3275,6 +4448,10 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   dependencies:
     isobject "^3.0.1"
+
+is-potential-custom-element-name@^1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.0.tgz#0c52e54bcca391bb2c494b21e8626d7336c6e397"
 
 is-regex@^1.1.1:
   version "1.1.1"
@@ -3289,6 +4466,10 @@ is-set@^2.0.1:
 is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+
+is-stream@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
 
 is-string@^1.0.5:
   version "1.0.5"
@@ -3310,6 +4491,10 @@ is-typed-array@^1.1.3:
     foreach "^2.0.5"
     has-symbols "^1.0.1"
 
+is-typedarray@^1.0.0, is-typedarray@~1.0.0:
+  version "1.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
+
 is-weakmap@^2.0.1:
   version "2.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-weakmap/-/is-weakmap-2.0.1.tgz#5008b59bdc43b698201d18f62b37b2ca243e8cf2"
@@ -3325,6 +4510,12 @@ is-windows@^1.0.2:
 is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+
+is-wsl@^2.1.1, is-wsl@^2.2.0:
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/is-wsl/-/is-wsl-2.2.0.tgz#74a4c76e77ca9fd3f932f290c17ea326cd157271"
+  dependencies:
+    is-docker "^2.0.0"
 
 isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -3355,9 +4546,272 @@ isomorphic-fetch@^2.1.1:
     node-fetch "^1.0.1"
     whatwg-fetch ">=0.10.0"
 
+isstream@~0.1.2:
+  version "0.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+istanbul-lib-coverage@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/istanbul-lib-coverage/-/istanbul-lib-coverage-3.0.0.tgz#f5944a37c70b550b02a78a5c3b2055b280cec8ec"
+
+istanbul-lib-instrument@^4.0.0, istanbul-lib-instrument@^4.0.3:
+  version "4.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/istanbul-lib-instrument/-/istanbul-lib-instrument-4.0.3.tgz#873c6fff897450118222774696a3f28902d77c1d"
+  dependencies:
+    "@babel/core" "^7.7.5"
+    "@istanbuljs/schema" "^0.1.2"
+    istanbul-lib-coverage "^3.0.0"
+    semver "^6.3.0"
+
+istanbul-lib-report@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz#7518fe52ea44de372f460a76b5ecda9ffb73d8a6"
+  dependencies:
+    istanbul-lib-coverage "^3.0.0"
+    make-dir "^3.0.0"
+    supports-color "^7.1.0"
+
+istanbul-lib-source-maps@^4.0.0:
+  version "4.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/istanbul-lib-source-maps/-/istanbul-lib-source-maps-4.0.0.tgz#75743ce6d96bb86dc7ee4352cf6366a23f0b1ad9"
+  dependencies:
+    debug "^4.1.1"
+    istanbul-lib-coverage "^3.0.0"
+    source-map "^0.6.1"
+
+istanbul-reports@^3.0.2:
+  version "3.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/istanbul-reports/-/istanbul-reports-3.0.2.tgz#d593210e5000683750cb09fc0644e4b6e27fd53b"
+  dependencies:
+    html-escaper "^2.0.0"
+    istanbul-lib-report "^3.0.0"
+
+jest-changed-files@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-changed-files/-/jest-changed-files-25.5.0.tgz#141cc23567ceb3f534526f8614ba39421383634c"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    execa "^3.2.0"
+    throat "^5.0.0"
+
+jest-changed-files@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-changed-files/-/jest-changed-files-26.6.2.tgz#f6198479e1cc66f22f9ae1e22acaa0b429c042d0"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    execa "^4.0.0"
+    throat "^5.0.0"
+
+jest-cli@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-cli/-/jest-cli-25.5.4.tgz#b9f1a84d1301a92c5c217684cb79840831db9f0d"
+  dependencies:
+    "@jest/core" "^25.5.4"
+    "@jest/test-result" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    import-local "^3.0.2"
+    is-ci "^2.0.0"
+    jest-config "^25.5.4"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    prompts "^2.0.1"
+    realpath-native "^2.0.0"
+    yargs "^15.3.1"
+
+jest-cli@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-cli/-/jest-cli-26.6.3.tgz#43117cfef24bc4cd691a174a8796a532e135e92a"
+  dependencies:
+    "@jest/core" "^26.6.3"
+    "@jest/test-result" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    chalk "^4.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    import-local "^3.0.2"
+    is-ci "^2.0.0"
+    jest-config "^26.6.3"
+    jest-util "^26.6.2"
+    jest-validate "^26.6.2"
+    prompts "^2.0.1"
+    yargs "^15.4.1"
+
+jest-config@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-config/-/jest-config-25.5.4.tgz#38e2057b3f976ef7309b2b2c8dcd2a708a67f02c"
+  dependencies:
+    "@babel/core" "^7.1.0"
+    "@jest/test-sequencer" "^25.5.4"
+    "@jest/types" "^25.5.0"
+    babel-jest "^25.5.1"
+    chalk "^3.0.0"
+    deepmerge "^4.2.2"
+    glob "^7.1.1"
+    graceful-fs "^4.2.4"
+    jest-environment-jsdom "^25.5.0"
+    jest-environment-node "^25.5.0"
+    jest-get-type "^25.2.6"
+    jest-jasmine2 "^25.5.4"
+    jest-regex-util "^25.2.6"
+    jest-resolve "^25.5.1"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    micromatch "^4.0.2"
+    pretty-format "^25.5.0"
+    realpath-native "^2.0.0"
+
+jest-config@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-config/-/jest-config-26.6.3.tgz#64f41444eef9eb03dc51d5c53b75c8c71f645349"
+  dependencies:
+    "@babel/core" "^7.1.0"
+    "@jest/test-sequencer" "^26.6.3"
+    "@jest/types" "^26.6.2"
+    babel-jest "^26.6.3"
+    chalk "^4.0.0"
+    deepmerge "^4.2.2"
+    glob "^7.1.1"
+    graceful-fs "^4.2.4"
+    jest-environment-jsdom "^26.6.2"
+    jest-environment-node "^26.6.2"
+    jest-get-type "^26.3.0"
+    jest-jasmine2 "^26.6.3"
+    jest-regex-util "^26.0.0"
+    jest-resolve "^26.6.2"
+    jest-util "^26.6.2"
+    jest-validate "^26.6.2"
+    micromatch "^4.0.2"
+    pretty-format "^26.6.2"
+
+jest-diff@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-diff/-/jest-diff-25.5.0.tgz#1dd26ed64f96667c068cef026b677dfa01afcfa9"
+  dependencies:
+    chalk "^3.0.0"
+    diff-sequences "^25.2.6"
+    jest-get-type "^25.2.6"
+    pretty-format "^25.5.0"
+
+jest-diff@^26.0.0, jest-diff@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-diff/-/jest-diff-26.6.2.tgz#1aa7468b52c3a68d7d5c5fdcdfcd5e49bd164394"
+  dependencies:
+    chalk "^4.0.0"
+    diff-sequences "^26.6.2"
+    jest-get-type "^26.3.0"
+    pretty-format "^26.6.2"
+
+jest-docblock@^25.3.0:
+  version "25.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-docblock/-/jest-docblock-25.3.0.tgz#8b777a27e3477cd77a168c05290c471a575623ef"
+  dependencies:
+    detect-newline "^3.0.0"
+
+jest-docblock@^26.0.0:
+  version "26.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-docblock/-/jest-docblock-26.0.0.tgz#3e2fa20899fc928cb13bd0ff68bd3711a36889b5"
+  dependencies:
+    detect-newline "^3.0.0"
+
+jest-each@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-each/-/jest-each-25.5.0.tgz#0c3c2797e8225cb7bec7e4d249dcd96b934be516"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    jest-get-type "^25.2.6"
+    jest-util "^25.5.0"
+    pretty-format "^25.5.0"
+
+jest-each@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-each/-/jest-each-26.6.2.tgz#02526438a77a67401c8a6382dfe5999952c167cb"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    chalk "^4.0.0"
+    jest-get-type "^26.3.0"
+    jest-util "^26.6.2"
+    pretty-format "^26.6.2"
+
+jest-environment-jsdom@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-environment-jsdom/-/jest-environment-jsdom-25.5.0.tgz#dcbe4da2ea997707997040ecf6e2560aec4e9834"
+  dependencies:
+    "@jest/environment" "^25.5.0"
+    "@jest/fake-timers" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    jest-mock "^25.5.0"
+    jest-util "^25.5.0"
+    jsdom "^15.2.1"
+
+jest-environment-jsdom@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-environment-jsdom/-/jest-environment-jsdom-26.6.2.tgz#78d09fe9cf019a357009b9b7e1f101d23bd1da3e"
+  dependencies:
+    "@jest/environment" "^26.6.2"
+    "@jest/fake-timers" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    jest-mock "^26.6.2"
+    jest-util "^26.6.2"
+    jsdom "^16.4.0"
+
+jest-environment-node@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-environment-node/-/jest-environment-node-25.5.0.tgz#0f55270d94804902988e64adca37c6ce0f7d07a1"
+  dependencies:
+    "@jest/environment" "^25.5.0"
+    "@jest/fake-timers" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    jest-mock "^25.5.0"
+    jest-util "^25.5.0"
+    semver "^6.3.0"
+
+jest-environment-node@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-environment-node/-/jest-environment-node-26.6.2.tgz#824e4c7fb4944646356f11ac75b229b0035f2b0c"
+  dependencies:
+    "@jest/environment" "^26.6.2"
+    "@jest/fake-timers" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    jest-mock "^26.6.2"
+    jest-util "^26.6.2"
+
+jest-expo@^40.0.2:
+  version "40.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-expo/-/jest-expo-40.0.2.tgz#f30cf1c260cea4d26998a742d1d8cd1f55f7ccd4"
+  dependencies:
+    "@expo/config" "^3.2.3"
+    babel-jest "^25.2.0"
+    jest "^25.2.0"
+    jest-watch-select-projects "^2.0.0"
+    jest-watch-typeahead "^0.5.0"
+    json5 "^2.1.0"
+    lodash "^4.5.0"
+    react-test-renderer "~16.11.0"
+
+jest-fetch-mock@^3.0.3:
+  version "3.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-fetch-mock/-/jest-fetch-mock-3.0.3.tgz#31749c456ae27b8919d69824f1c2bd85fe0a1f3b"
+  dependencies:
+    cross-fetch "^3.0.4"
+    promise-polyfill "^8.1.3"
+
 jest-get-type@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-get-type/-/jest-get-type-24.9.0.tgz#1684a0c8a50f2e4901b6644ae861f579eed2ef0e"
+
+jest-get-type@^25.2.6:
+  version "25.2.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-get-type/-/jest-get-type-25.2.6.tgz#0b0a32fab8908b44d508be81681487dbabb8d877"
+
+jest-get-type@^26.3.0:
+  version "26.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-get-type/-/jest-get-type-26.3.0.tgz#e97dc3c3f53c2b406ca7afaed4493b1d099199e0"
 
 jest-haste-map@^24.7.1:
   version "24.9.0"
@@ -3377,6 +4831,122 @@ jest-haste-map@^24.7.1:
   optionalDependencies:
     fsevents "^1.2.7"
 
+jest-haste-map@^25.5.1:
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-haste-map/-/jest-haste-map-25.5.1.tgz#1df10f716c1d94e60a1ebf7798c9fb3da2620943"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    "@types/graceful-fs" "^4.1.2"
+    anymatch "^3.0.3"
+    fb-watchman "^2.0.0"
+    graceful-fs "^4.2.4"
+    jest-serializer "^25.5.0"
+    jest-util "^25.5.0"
+    jest-worker "^25.5.0"
+    micromatch "^4.0.2"
+    sane "^4.0.3"
+    walker "^1.0.7"
+    which "^2.0.2"
+  optionalDependencies:
+    fsevents "^2.1.2"
+
+jest-haste-map@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-haste-map/-/jest-haste-map-26.6.2.tgz#dd7e60fe7dc0e9f911a23d79c5ff7fb5c2cafeaa"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    "@types/graceful-fs" "^4.1.2"
+    "@types/node" "*"
+    anymatch "^3.0.3"
+    fb-watchman "^2.0.0"
+    graceful-fs "^4.2.4"
+    jest-regex-util "^26.0.0"
+    jest-serializer "^26.6.2"
+    jest-util "^26.6.2"
+    jest-worker "^26.6.2"
+    micromatch "^4.0.2"
+    sane "^4.0.3"
+    walker "^1.0.7"
+  optionalDependencies:
+    fsevents "^2.1.2"
+
+jest-jasmine2@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-jasmine2/-/jest-jasmine2-25.5.4.tgz#66ca8b328fb1a3c5364816f8958f6970a8526968"
+  dependencies:
+    "@babel/traverse" "^7.1.0"
+    "@jest/environment" "^25.5.0"
+    "@jest/source-map" "^25.5.0"
+    "@jest/test-result" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    co "^4.6.0"
+    expect "^25.5.0"
+    is-generator-fn "^2.0.0"
+    jest-each "^25.5.0"
+    jest-matcher-utils "^25.5.0"
+    jest-message-util "^25.5.0"
+    jest-runtime "^25.5.4"
+    jest-snapshot "^25.5.1"
+    jest-util "^25.5.0"
+    pretty-format "^25.5.0"
+    throat "^5.0.0"
+
+jest-jasmine2@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-jasmine2/-/jest-jasmine2-26.6.3.tgz#adc3cf915deacb5212c93b9f3547cd12958f2edd"
+  dependencies:
+    "@babel/traverse" "^7.1.0"
+    "@jest/environment" "^26.6.2"
+    "@jest/source-map" "^26.6.2"
+    "@jest/test-result" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    co "^4.6.0"
+    expect "^26.6.2"
+    is-generator-fn "^2.0.0"
+    jest-each "^26.6.2"
+    jest-matcher-utils "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-runtime "^26.6.3"
+    jest-snapshot "^26.6.2"
+    jest-util "^26.6.2"
+    pretty-format "^26.6.2"
+    throat "^5.0.0"
+
+jest-leak-detector@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-leak-detector/-/jest-leak-detector-25.5.0.tgz#2291c6294b0ce404241bb56fe60e2d0c3e34f0bb"
+  dependencies:
+    jest-get-type "^25.2.6"
+    pretty-format "^25.5.0"
+
+jest-leak-detector@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-leak-detector/-/jest-leak-detector-26.6.2.tgz#7717cf118b92238f2eba65054c8a0c9c653a91af"
+  dependencies:
+    jest-get-type "^26.3.0"
+    pretty-format "^26.6.2"
+
+jest-matcher-utils@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-matcher-utils/-/jest-matcher-utils-25.5.0.tgz#fbc98a12d730e5d2453d7f1ed4a4d948e34b7867"
+  dependencies:
+    chalk "^3.0.0"
+    jest-diff "^25.5.0"
+    jest-get-type "^25.2.6"
+    pretty-format "^25.5.0"
+
+jest-matcher-utils@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-matcher-utils/-/jest-matcher-utils-26.6.2.tgz#8e6fd6e863c8b2d31ac6472eeb237bc595e53e7a"
+  dependencies:
+    chalk "^4.0.0"
+    jest-diff "^26.6.2"
+    jest-get-type "^26.3.0"
+    pretty-format "^26.6.2"
+
 jest-message-util@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-message-util/-/jest-message-util-24.9.0.tgz#527f54a1e380f5e202a8d1149b0ec872f43119e3"
@@ -3390,15 +4960,276 @@ jest-message-util@^24.9.0:
     slash "^2.0.0"
     stack-utils "^1.0.1"
 
+jest-message-util@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-message-util/-/jest-message-util-25.5.0.tgz#ea11d93204cc7ae97456e1d8716251185b8880ea"
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@jest/types" "^25.5.0"
+    "@types/stack-utils" "^1.0.1"
+    chalk "^3.0.0"
+    graceful-fs "^4.2.4"
+    micromatch "^4.0.2"
+    slash "^3.0.0"
+    stack-utils "^1.0.1"
+
+jest-message-util@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-message-util/-/jest-message-util-26.6.2.tgz#58173744ad6fc0506b5d21150b9be56ef001ca07"
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@jest/types" "^26.6.2"
+    "@types/stack-utils" "^2.0.0"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.4"
+    micromatch "^4.0.2"
+    pretty-format "^26.6.2"
+    slash "^3.0.0"
+    stack-utils "^2.0.2"
+
 jest-mock@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-mock/-/jest-mock-24.9.0.tgz#c22835541ee379b908673ad51087a2185c13f1c6"
   dependencies:
     "@jest/types" "^24.9.0"
 
+jest-mock@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-mock/-/jest-mock-25.5.0.tgz#a91a54dabd14e37ecd61665d6b6e06360a55387a"
+  dependencies:
+    "@jest/types" "^25.5.0"
+
+jest-mock@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-mock/-/jest-mock-26.6.2.tgz#d6cb712b041ed47fe0d9b6fc3474bc6543feb302"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+
+jest-pnp-resolver@^1.2.1, jest-pnp-resolver@^1.2.2:
+  version "1.2.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
+
+jest-regex-util@^25.2.1, jest-regex-util@^25.2.6:
+  version "25.2.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-regex-util/-/jest-regex-util-25.2.6.tgz#d847d38ba15d2118d3b06390056028d0f2fd3964"
+
+jest-regex-util@^26.0.0:
+  version "26.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-regex-util/-/jest-regex-util-26.0.0.tgz#d25e7184b36e39fd466c3bc41be0971e821fee28"
+
+jest-resolve-dependencies@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-resolve-dependencies/-/jest-resolve-dependencies-25.5.4.tgz#85501f53957c8e3be446e863a74777b5a17397a7"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    jest-regex-util "^25.2.6"
+    jest-snapshot "^25.5.1"
+
+jest-resolve-dependencies@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-resolve-dependencies/-/jest-resolve-dependencies-26.6.3.tgz#6680859ee5d22ee5dcd961fe4871f59f4c784fb6"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    jest-regex-util "^26.0.0"
+    jest-snapshot "^26.6.2"
+
+jest-resolve@^25.5.1:
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-resolve/-/jest-resolve-25.5.1.tgz#0e6fbcfa7c26d2a5fe8f456088dc332a79266829"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    browser-resolve "^1.11.3"
+    chalk "^3.0.0"
+    graceful-fs "^4.2.4"
+    jest-pnp-resolver "^1.2.1"
+    read-pkg-up "^7.0.1"
+    realpath-native "^2.0.0"
+    resolve "^1.17.0"
+    slash "^3.0.0"
+
+jest-resolve@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-resolve/-/jest-resolve-26.6.2.tgz#a3ab1517217f469b504f1b56603c5bb541fbb507"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.4"
+    jest-pnp-resolver "^1.2.2"
+    jest-util "^26.6.2"
+    read-pkg-up "^7.0.1"
+    resolve "^1.18.1"
+    slash "^3.0.0"
+
+jest-runner@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-runner/-/jest-runner-25.5.4.tgz#ffec5df3875da5f5c878ae6d0a17b8e4ecd7c71d"
+  dependencies:
+    "@jest/console" "^25.5.0"
+    "@jest/environment" "^25.5.0"
+    "@jest/test-result" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    jest-config "^25.5.4"
+    jest-docblock "^25.3.0"
+    jest-haste-map "^25.5.1"
+    jest-jasmine2 "^25.5.4"
+    jest-leak-detector "^25.5.0"
+    jest-message-util "^25.5.0"
+    jest-resolve "^25.5.1"
+    jest-runtime "^25.5.4"
+    jest-util "^25.5.0"
+    jest-worker "^25.5.0"
+    source-map-support "^0.5.6"
+    throat "^5.0.0"
+
+jest-runner@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-runner/-/jest-runner-26.6.3.tgz#2d1fed3d46e10f233fd1dbd3bfaa3fe8924be159"
+  dependencies:
+    "@jest/console" "^26.6.2"
+    "@jest/environment" "^26.6.2"
+    "@jest/test-result" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    emittery "^0.7.1"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    jest-config "^26.6.3"
+    jest-docblock "^26.0.0"
+    jest-haste-map "^26.6.2"
+    jest-leak-detector "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-resolve "^26.6.2"
+    jest-runtime "^26.6.3"
+    jest-util "^26.6.2"
+    jest-worker "^26.6.2"
+    source-map-support "^0.5.6"
+    throat "^5.0.0"
+
+jest-runtime@^25.5.4:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-runtime/-/jest-runtime-25.5.4.tgz#dc981fe2cb2137abcd319e74ccae7f7eeffbfaab"
+  dependencies:
+    "@jest/console" "^25.5.0"
+    "@jest/environment" "^25.5.0"
+    "@jest/globals" "^25.5.2"
+    "@jest/source-map" "^25.5.0"
+    "@jest/test-result" "^25.5.0"
+    "@jest/transform" "^25.5.1"
+    "@jest/types" "^25.5.0"
+    "@types/yargs" "^15.0.0"
+    chalk "^3.0.0"
+    collect-v8-coverage "^1.0.0"
+    exit "^0.1.2"
+    glob "^7.1.3"
+    graceful-fs "^4.2.4"
+    jest-config "^25.5.4"
+    jest-haste-map "^25.5.1"
+    jest-message-util "^25.5.0"
+    jest-mock "^25.5.0"
+    jest-regex-util "^25.2.6"
+    jest-resolve "^25.5.1"
+    jest-snapshot "^25.5.1"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    realpath-native "^2.0.0"
+    slash "^3.0.0"
+    strip-bom "^4.0.0"
+    yargs "^15.3.1"
+
+jest-runtime@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-runtime/-/jest-runtime-26.6.3.tgz#4f64efbcfac398331b74b4b3c82d27d401b8fa2b"
+  dependencies:
+    "@jest/console" "^26.6.2"
+    "@jest/environment" "^26.6.2"
+    "@jest/fake-timers" "^26.6.2"
+    "@jest/globals" "^26.6.2"
+    "@jest/source-map" "^26.6.2"
+    "@jest/test-result" "^26.6.2"
+    "@jest/transform" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/yargs" "^15.0.0"
+    chalk "^4.0.0"
+    cjs-module-lexer "^0.6.0"
+    collect-v8-coverage "^1.0.0"
+    exit "^0.1.2"
+    glob "^7.1.3"
+    graceful-fs "^4.2.4"
+    jest-config "^26.6.3"
+    jest-haste-map "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-mock "^26.6.2"
+    jest-regex-util "^26.0.0"
+    jest-resolve "^26.6.2"
+    jest-snapshot "^26.6.2"
+    jest-util "^26.6.2"
+    jest-validate "^26.6.2"
+    slash "^3.0.0"
+    strip-bom "^4.0.0"
+    yargs "^15.4.1"
+
 jest-serializer@^24.4.0, jest-serializer@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-serializer/-/jest-serializer-24.9.0.tgz#e6d7d7ef96d31e8b9079a714754c5d5c58288e73"
+
+jest-serializer@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-serializer/-/jest-serializer-25.5.0.tgz#a993f484e769b4ed54e70e0efdb74007f503072b"
+  dependencies:
+    graceful-fs "^4.2.4"
+
+jest-serializer@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-serializer/-/jest-serializer-26.6.2.tgz#d139aafd46957d3a448f3a6cdabe2919ba0742d1"
+  dependencies:
+    "@types/node" "*"
+    graceful-fs "^4.2.4"
+
+jest-snapshot@^25.5.1:
+  version "25.5.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-snapshot/-/jest-snapshot-25.5.1.tgz#1a2a576491f9961eb8d00c2e5fd479bc28e5ff7f"
+  dependencies:
+    "@babel/types" "^7.0.0"
+    "@jest/types" "^25.5.0"
+    "@types/prettier" "^1.19.0"
+    chalk "^3.0.0"
+    expect "^25.5.0"
+    graceful-fs "^4.2.4"
+    jest-diff "^25.5.0"
+    jest-get-type "^25.2.6"
+    jest-matcher-utils "^25.5.0"
+    jest-message-util "^25.5.0"
+    jest-resolve "^25.5.1"
+    make-dir "^3.0.0"
+    natural-compare "^1.4.0"
+    pretty-format "^25.5.0"
+    semver "^6.3.0"
+
+jest-snapshot@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-snapshot/-/jest-snapshot-26.6.2.tgz#f3b0af1acb223316850bd14e1beea9837fb39c84"
+  dependencies:
+    "@babel/types" "^7.0.0"
+    "@jest/types" "^26.6.2"
+    "@types/babel__traverse" "^7.0.4"
+    "@types/prettier" "^2.0.0"
+    chalk "^4.0.0"
+    expect "^26.6.2"
+    graceful-fs "^4.2.4"
+    jest-diff "^26.6.2"
+    jest-get-type "^26.3.0"
+    jest-haste-map "^26.6.2"
+    jest-matcher-utils "^26.6.2"
+    jest-message-util "^26.6.2"
+    jest-resolve "^26.6.2"
+    natural-compare "^1.4.0"
+    pretty-format "^26.6.2"
+    semver "^7.3.2"
 
 jest-util@^24.9.0:
   version "24.9.0"
@@ -3417,6 +5248,27 @@ jest-util@^24.9.0:
     slash "^2.0.0"
     source-map "^0.6.0"
 
+jest-util@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-util/-/jest-util-25.5.0.tgz#31c63b5d6e901274d264a4fec849230aa3fa35b0"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    graceful-fs "^4.2.4"
+    is-ci "^2.0.0"
+    make-dir "^3.0.0"
+
+jest-util@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-util/-/jest-util-26.6.2.tgz#907535dbe4d5a6cb4c47ac9b926f6af29576cbc1"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.4"
+    is-ci "^2.0.0"
+    micromatch "^4.0.2"
+
 jest-validate@^24.7.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-validate/-/jest-validate-24.9.0.tgz#0775c55360d173cd854e40180756d4ff52def8ab"
@@ -3428,12 +5280,108 @@ jest-validate@^24.7.0:
     leven "^3.1.0"
     pretty-format "^24.9.0"
 
+jest-validate@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-validate/-/jest-validate-25.5.0.tgz#fb4c93f332c2e4cf70151a628e58a35e459a413a"
+  dependencies:
+    "@jest/types" "^25.5.0"
+    camelcase "^5.3.1"
+    chalk "^3.0.0"
+    jest-get-type "^25.2.6"
+    leven "^3.1.0"
+    pretty-format "^25.5.0"
+
+jest-validate@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-validate/-/jest-validate-26.6.2.tgz#23d380971587150467342911c3d7b4ac57ab20ec"
+  dependencies:
+    "@jest/types" "^26.6.2"
+    camelcase "^6.0.0"
+    chalk "^4.0.0"
+    jest-get-type "^26.3.0"
+    leven "^3.1.0"
+    pretty-format "^26.6.2"
+
+jest-watch-select-projects@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-watch-select-projects/-/jest-watch-select-projects-2.0.0.tgz#4373d7e4de862aae28b46e036b669a4c913ea867"
+  dependencies:
+    ansi-escapes "^4.3.0"
+    chalk "^3.0.0"
+    prompts "^2.2.1"
+
+jest-watch-typeahead@^0.5.0:
+  version "0.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-watch-typeahead/-/jest-watch-typeahead-0.5.0.tgz#903dba6112f22daae7e90b0a271853f7ff182008"
+  dependencies:
+    ansi-escapes "^4.2.1"
+    chalk "^3.0.0"
+    jest-regex-util "^25.2.1"
+    jest-watcher "^25.2.4"
+    slash "^3.0.0"
+    string-length "^3.1.0"
+    strip-ansi "^6.0.0"
+
+jest-watcher@^25.2.4, jest-watcher@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-watcher/-/jest-watcher-25.5.0.tgz#d6110d101df98badebe435003956fd4a465e8456"
+  dependencies:
+    "@jest/test-result" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    ansi-escapes "^4.2.1"
+    chalk "^3.0.0"
+    jest-util "^25.5.0"
+    string-length "^3.1.0"
+
+jest-watcher@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-watcher/-/jest-watcher-26.6.2.tgz#a5b683b8f9d68dbcb1d7dae32172d2cca0592975"
+  dependencies:
+    "@jest/test-result" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/node" "*"
+    ansi-escapes "^4.2.1"
+    chalk "^4.0.0"
+    jest-util "^26.6.2"
+    string-length "^4.0.1"
+
 jest-worker@^24.6.0, jest-worker@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-worker/-/jest-worker-24.9.0.tgz#5dbfdb5b2d322e98567898238a9697bcce67b3e5"
   dependencies:
     merge-stream "^2.0.0"
     supports-color "^6.1.0"
+
+jest-worker@^25.5.0:
+  version "25.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-worker/-/jest-worker-25.5.0.tgz#2611d071b79cea0f43ee57a3d118593ac1547db1"
+  dependencies:
+    merge-stream "^2.0.0"
+    supports-color "^7.0.0"
+
+jest-worker@^26.6.2:
+  version "26.6.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest-worker/-/jest-worker-26.6.2.tgz#7f72cbc4d643c365e27b9fd775f9d0eaa9c7a8ed"
+  dependencies:
+    "@types/node" "*"
+    merge-stream "^2.0.0"
+    supports-color "^7.0.0"
+
+jest@^25.2.0:
+  version "25.5.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest/-/jest-25.5.4.tgz#f21107b6489cfe32b076ce2adcadee3587acb9db"
+  dependencies:
+    "@jest/core" "^25.5.4"
+    import-local "^3.0.2"
+    jest-cli "^25.5.4"
+
+jest@^26.6.3:
+  version "26.6.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jest/-/jest-26.6.3.tgz#40e8fdbe48f00dfa1f0ce8121ca74b88ac9148ef"
+  dependencies:
+    "@jest/core" "^26.6.3"
+    import-local "^3.0.2"
+    jest-cli "^26.6.3"
 
 jetifier@^1.6.2:
   version "1.6.6"
@@ -3464,9 +5412,75 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
+jsbn@~0.1.0:
+  version "0.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+
 jsc-android@^245459.0.0:
   version "245459.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsc-android/-/jsc-android-245459.0.0.tgz#e584258dd0b04c9159a27fb104cd5d491fd202c9"
+
+jsdom@^15.2.1:
+  version "15.2.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsdom/-/jsdom-15.2.1.tgz#d2feb1aef7183f86be521b8c6833ff5296d07ec5"
+  dependencies:
+    abab "^2.0.0"
+    acorn "^7.1.0"
+    acorn-globals "^4.3.2"
+    array-equal "^1.0.0"
+    cssom "^0.4.1"
+    cssstyle "^2.0.0"
+    data-urls "^1.1.0"
+    domexception "^1.0.1"
+    escodegen "^1.11.1"
+    html-encoding-sniffer "^1.0.2"
+    nwsapi "^2.2.0"
+    parse5 "5.1.0"
+    pn "^1.1.0"
+    request "^2.88.0"
+    request-promise-native "^1.0.7"
+    saxes "^3.1.9"
+    symbol-tree "^3.2.2"
+    tough-cookie "^3.0.1"
+    w3c-hr-time "^1.0.1"
+    w3c-xmlserializer "^1.1.2"
+    webidl-conversions "^4.0.2"
+    whatwg-encoding "^1.0.5"
+    whatwg-mimetype "^2.3.0"
+    whatwg-url "^7.0.0"
+    ws "^7.0.0"
+    xml-name-validator "^3.0.0"
+
+jsdom@^16.4.0:
+  version "16.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsdom/-/jsdom-16.4.0.tgz#36005bde2d136f73eee1a830c6d45e55408edddb"
+  dependencies:
+    abab "^2.0.3"
+    acorn "^7.1.1"
+    acorn-globals "^6.0.0"
+    cssom "^0.4.4"
+    cssstyle "^2.2.0"
+    data-urls "^2.0.0"
+    decimal.js "^10.2.0"
+    domexception "^2.0.1"
+    escodegen "^1.14.1"
+    html-encoding-sniffer "^2.0.1"
+    is-potential-custom-element-name "^1.0.0"
+    nwsapi "^2.2.0"
+    parse5 "5.1.1"
+    request "^2.88.2"
+    request-promise-native "^1.0.8"
+    saxes "^5.0.0"
+    symbol-tree "^3.2.4"
+    tough-cookie "^3.0.1"
+    w3c-hr-time "^1.0.2"
+    w3c-xmlserializer "^2.0.0"
+    webidl-conversions "^6.1.0"
+    whatwg-encoding "^1.0.5"
+    whatwg-mimetype "^2.3.0"
+    whatwg-url "^8.0.0"
+    ws "^7.2.3"
+    xml-name-validator "^3.0.0"
 
 jsesc@^2.5.1:
   version "2.5.2"
@@ -3480,11 +5494,27 @@ json-parse-better-errors@^1.0.1:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
 
+json-parse-even-better-errors@^2.3.0:
+  version "2.3.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
+
+json-schema-traverse@^0.4.1:
+  version "0.4.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
+
+json-schema@0.2.3:
+  version "0.2.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
+
 json-stable-stringify@^1.0.1:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz#9a759d39c5f2ff503fd5300646ed445f88c4f9af"
   dependencies:
     jsonify "~0.0.0"
+
+json-stringify-safe@~5.0.1:
+  version "5.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
 json5@^0.5.1:
   version "0.5.1"
@@ -3495,6 +5525,12 @@ json5@^1.0.1:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   dependencies:
     minimist "^1.2.0"
+
+json5@^2.1.0:
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  dependencies:
+    minimist "^1.2.5"
 
 json5@^2.1.2:
   version "2.1.3"
@@ -3526,6 +5562,15 @@ jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
 
+jsprim@^1.2.2:
+  version "1.4.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
+  dependencies:
+    assert-plus "1.0.0"
+    extsprintf "1.3.0"
+    json-schema "0.2.3"
+    verror "1.10.0"
+
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -3556,9 +5601,24 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+kleur@^3.0.3:
+  version "3.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
+
+levn@~0.3.0:
+  version "0.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
+  dependencies:
+    prelude-ls "~1.1.2"
+    type-check "~0.3.2"
+
+lines-and-columns@^1.1.6:
+  version "1.1.6"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
 
 load-bmfont@^1.3.1, load-bmfont@^1.4.0:
   version "1.4.1"
@@ -3623,6 +5683,10 @@ lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
+lodash.sortby@^4.7.0:
+  version "4.7.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+
 lodash.template@^4.5.0:
   version "4.5.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
@@ -3658,6 +5722,12 @@ logkitty@^0.7.1:
     dayjs "^1.8.15"
     yargs "^15.1.0"
 
+lolex@^5.0.0:
+  version "5.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lolex/-/lolex-5.1.2.tgz#953694d098ce7c07bc5ed6d0e42bc6c0c6d5a367"
+  dependencies:
+    "@sinonjs/commons" "^1.7.0"
+
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -3671,12 +5741,24 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  dependencies:
+    yallist "^4.0.0"
+
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/make-dir/-/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
   dependencies:
     pify "^4.0.1"
     semver "^5.6.0"
+
+make-dir@^3.0.0:
+  version "3.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
+  dependencies:
+    semver "^6.0.0"
 
 makeerror@1.0.x:
   version "1.0.11"
@@ -4031,6 +6113,13 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
+micromatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.0.5"
+
 mime-db@1.45.0, "mime-db@>= 1.43.0 < 2":
   version "1.45.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/mime-db/-/mime-db-1.45.0.tgz#cceeda21ccd7c3a745eba2decd55d4b73e7879ea"
@@ -4045,7 +6134,7 @@ mime-types@2.1.11:
   dependencies:
     mime-db "~1.23.0"
 
-mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.28"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/mime-types/-/mime-types-2.1.28.tgz#1160c4757eab2c5363888e005273ecf79d2a0ecd"
   dependencies:
@@ -4062,6 +6151,10 @@ mime@^2.4.1, mime@^2.4.4:
 mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
+
+mimic-fn@^2.1.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
 
 min-document@^2.19.0:
   version "2.19.0"
@@ -4128,6 +6221,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+natural-compare@^1.4.0:
+  version "1.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
@@ -4140,16 +6237,16 @@ nocache@^2.1.0:
   version "2.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/nocache/-/nocache-2.1.0.tgz#120c9ffec43b5729b1d5de88cd71aa75a0ba491f"
 
+node-fetch@2.6.1, node-fetch@^2.2.0, node-fetch@^2.6.0:
+  version "2.6.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+
 node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
-
-node-fetch@^2.2.0, node-fetch@^2.6.0:
-  version "2.6.1"
-  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -4158,6 +6255,27 @@ node-int64@^0.4.0:
 node-modules-regexp@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
+
+node-notifier@^6.0.0:
+  version "6.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-notifier/-/node-notifier-6.0.0.tgz#cea319e06baa16deec8ce5cd7f133c4a46b68e12"
+  dependencies:
+    growly "^1.3.0"
+    is-wsl "^2.1.1"
+    semver "^6.3.0"
+    shellwords "^0.1.1"
+    which "^1.3.1"
+
+node-notifier@^8.0.0:
+  version "8.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/node-notifier/-/node-notifier-8.0.1.tgz#f86e89bbc925f2b068784b31f382afdc6ca56be1"
+  dependencies:
+    growly "^1.3.0"
+    is-wsl "^2.2.0"
+    semver "^7.3.2"
+    shellwords "^0.1.1"
+    uuid "^8.3.0"
+    which "^2.0.2"
 
 node-releases@^1.1.69:
   version "1.1.70"
@@ -4175,11 +6293,24 @@ normalize-css-color@^1.0.2:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
 
+normalize-package-data@^2.5.0:
+  version "2.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
+  dependencies:
+    hosted-git-info "^2.1.4"
+    resolve "^1.10.0"
+    semver "2 || 3 || 4 || 5"
+    validate-npm-package-license "^3.0.1"
+
 normalize-path@^2.1.1:
   version "2.1.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
   dependencies:
     remove-trailing-separator "^1.0.1"
+
+normalize-path@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -4187,9 +6318,23 @@ npm-run-path@^2.0.0:
   dependencies:
     path-key "^2.0.0"
 
+npm-run-path@^4.0.0:
+  version "4.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
+  dependencies:
+    path-key "^3.0.0"
+
 nullthrows@^1.1.0, nullthrows@^1.1.1:
   version "1.1.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/nullthrows/-/nullthrows-1.1.1.tgz#7818258843856ae971eae4208ad7d7eb19a431b1"
+
+nwsapi@^2.2.0:
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
+
+oauth-sign@~0.9.0:
+  version "0.9.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
 
 ob1@0.58.0:
   version "0.58.0"
@@ -4273,11 +6418,28 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+onetime@^5.1.0:
+  version "5.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  dependencies:
+    mimic-fn "^2.1.0"
+
 open@^6.2.0:
   version "6.4.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
   dependencies:
     is-wsl "^1.1.0"
+
+optionator@^0.8.1:
+  version "0.8.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
+  dependencies:
+    deep-is "~0.1.3"
+    fast-levenshtein "~2.0.6"
+    levn "~0.3.0"
+    prelude-ls "~1.1.2"
+    type-check "~0.3.2"
+    word-wrap "~1.2.3"
 
 options@>=0.0.5:
   version "0.0.6"
@@ -4298,9 +6460,17 @@ os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
+p-each-series@^2.1.0:
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/p-each-series/-/p-each-series-2.2.0.tgz#105ab0357ce72b202a8a8b94933672657b5e2a9a"
+
 p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+
+p-finally@^2.0.0:
+  version "2.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/p-finally/-/p-finally-2.0.1.tgz#bd6fcaa9c559a096b680806f4d657b3f0f240561"
 
 p-limit@^1.1.0:
   version "1.3.0"
@@ -4382,6 +6552,15 @@ parse-json@^4.0.0:
     error-ex "^1.3.1"
     json-parse-better-errors "^1.0.1"
 
+parse-json@^5.0.0:
+  version "5.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/parse-json/-/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    error-ex "^1.3.1"
+    json-parse-even-better-errors "^2.3.0"
+    lines-and-columns "^1.1.6"
+
 parse-node-version@^1.0.0:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/parse-node-version/-/parse-node-version-1.0.1.tgz#e2b5dbede00e7fa9bc363607f53327e8b073189b"
@@ -4391,6 +6570,14 @@ parse-png@^2.1.0:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/parse-png/-/parse-png-2.1.0.tgz#2a42ad719fedf90f81c59ebee7ae59b280d6b338"
   dependencies:
     pngjs "^3.3.0"
+
+parse5@5.1.0:
+  version "5.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
+
+parse5@5.1.1:
+  version "5.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
 
 parseurl@~1.3.3:
   version "1.3.3"
@@ -4420,19 +6607,31 @@ path-key@^2.0.0, path-key@^2.0.1:
   version "2.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
+path-key@^3.0.0, path-key@^3.1.0:
+  version "3.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
+
 path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
 phin@^2.9.1:
   version "2.9.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/phin/-/phin-2.9.3.tgz#f9b6ac10a035636fb65dfc576aaaa17b8743125c"
 
+picomatch@^2.0.4, picomatch@^2.0.5:
+  version "2.2.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
+
 pify@^4.0.1:
   version "4.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
 
-pirates@^4.0.0:
+pirates@^4.0.0, pirates@^4.0.1:
   version "4.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pirates/-/pirates-4.0.1.tgz#643a92caf894566f91b2b986d2c66950a8e2fb87"
   dependencies:
@@ -4449,6 +6648,12 @@ pkg-dir@^3.0.0:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pkg-dir/-/pkg-dir-3.0.0.tgz#2749020f239ed990881b1f71210d51eb6523bea3"
   dependencies:
     find-up "^3.0.0"
+
+pkg-dir@^4.2.0:
+  version "4.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
+  dependencies:
+    find-up "^4.0.0"
 
 pkg-up@^2.0.0:
   version "2.0.0"
@@ -4474,6 +6679,10 @@ plugin-error@^0.1.2:
     arr-union "^2.0.1"
     extend-shallow "^1.1.2"
 
+pn@^1.1.0:
+  version "1.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
+
 pngjs@^3.0.0, pngjs@^3.3.0, pngjs@^3.3.3:
   version "3.4.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
@@ -4490,6 +6699,10 @@ pouchdb-collections@^1.0.1:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pouchdb-collections/-/pouchdb-collections-1.0.1.tgz#fe63a17da977611abef7cb8026cb1a9553fd8359"
 
+prelude-ls@~1.1.2:
+  version "1.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
+
 pretty-format@^24.7.0, pretty-format@^24.9.0:
   version "24.9.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pretty-format/-/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
@@ -4499,7 +6712,7 @@ pretty-format@^24.7.0, pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
-pretty-format@^25.1.0, pretty-format@^25.2.0:
+pretty-format@^25.1.0, pretty-format@^25.2.0, pretty-format@^25.5.0:
   version "25.5.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pretty-format/-/pretty-format-25.5.0.tgz#7873c1d774f682c34b8d48b6743a2bf2ac55791a"
   dependencies:
@@ -4508,7 +6721,7 @@ pretty-format@^25.1.0, pretty-format@^25.2.0:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-pretty-format@^26.4.0:
+pretty-format@^26.0.0, pretty-format@^26.0.1, pretty-format@^26.4.0, pretty-format@^26.6.2:
   version "26.6.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pretty-format/-/pretty-format-26.6.2.tgz#e35c2705f14cb7fe2fe94fa078345b444120fc93"
   dependencies:
@@ -4525,6 +6738,10 @@ process@^0.11.10:
   version "0.11.10"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
 
+promise-polyfill@^8.1.3:
+  version "8.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/promise-polyfill/-/promise-polyfill-8.2.0.tgz#367394726da7561457aba2133c9ceefbd6267da0"
+
 promise@^7.1.1:
   version "7.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
@@ -4536,6 +6753,13 @@ promise@^8.0.3:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
   dependencies:
     asap "~2.0.6"
+
+prompts@^2.0.1, prompts@^2.2.1:
+  version "2.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/prompts/-/prompts-2.4.0.tgz#4aa5de0723a231d1ee9121c40fdf663df73f61d7"
+  dependencies:
+    kleur "^3.0.3"
+    sisteransi "^1.0.5"
 
 prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
@@ -4549,6 +6773,10 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
+psl@^1.1.28:
+  version "1.8.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
+
 pump@^3.0.0:
   version "3.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
@@ -4556,9 +6784,17 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
+punycode@^2.1.0, punycode@^2.1.1:
+  version "2.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+
 qs@^6.5.0:
   version "6.9.6"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
+
+qs@~6.5.2:
+  version "6.5.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
 querystringify@^2.1.1:
   version "2.2.0"
@@ -4584,7 +6820,7 @@ react-dom@16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
+react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
@@ -4646,6 +6882,15 @@ react-refresh@^0.4.0:
   version "0.4.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/react-refresh/-/react-refresh-0.4.3.tgz#966f1750c191672e76e16c2efa569150cc73ab53"
 
+react-test-renderer@~16.11.0:
+  version "16.11.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/react-test-renderer/-/react-test-renderer-16.11.0.tgz#72574566496462c808ac449b0287a4c0a1a7d8f8"
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.6"
+    scheduler "^0.17.0"
+
 react-timer-mixin@^0.13.4:
   version "0.13.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"
@@ -4658,6 +6903,23 @@ react@16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
+read-pkg-up@^7.0.1:
+  version "7.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/read-pkg-up/-/read-pkg-up-7.0.1.tgz#f3a6135758459733ae2b95638056e1854e7ef507"
+  dependencies:
+    find-up "^4.1.0"
+    read-pkg "^5.2.0"
+    type-fest "^0.8.1"
+
+read-pkg@^5.2.0:
+  version "5.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/read-pkg/-/read-pkg-5.2.0.tgz#7bf295438ca5a33e56cd30e053b34ee7250c93cc"
+  dependencies:
+    "@types/normalize-package-data" "^2.4.0"
+    normalize-package-data "^2.5.0"
+    parse-json "^5.0.0"
+    type-fest "^0.6.0"
+
 readable-stream@^2.0.1, readable-stream@^2.2.2, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
@@ -4669,6 +6931,10 @@ readable-stream@^2.0.1, readable-stream@^2.2.2, readable-stream@~2.3.6:
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
+
+realpath-native@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/realpath-native/-/realpath-native-2.0.0.tgz#7377ac429b6e1fd599dc38d08ed942d0d7beb866"
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
@@ -4737,6 +7003,45 @@ repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
+request-promise-core@1.1.4:
+  version "1.1.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/request-promise-core/-/request-promise-core-1.1.4.tgz#3eedd4223208d419867b78ce815167d10593a22f"
+  dependencies:
+    lodash "^4.17.19"
+
+request-promise-native@^1.0.7, request-promise-native@^1.0.8:
+  version "1.0.9"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/request-promise-native/-/request-promise-native-1.0.9.tgz#e407120526a5efdc9a39b28a5679bf47b9d9dc28"
+  dependencies:
+    request-promise-core "1.1.4"
+    stealthy-require "^1.1.1"
+    tough-cookie "^2.3.3"
+
+request@^2.88.0, request@^2.88.2:
+  version "2.88.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
+  dependencies:
+    aws-sign2 "~0.7.0"
+    aws4 "^1.8.0"
+    caseless "~0.12.0"
+    combined-stream "~1.0.6"
+    extend "~3.0.2"
+    forever-agent "~0.6.1"
+    form-data "~2.3.2"
+    har-validator "~5.1.3"
+    http-signature "~1.2.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.19"
+    oauth-sign "~0.9.0"
+    performance-now "^2.1.0"
+    qs "~6.5.2"
+    safe-buffer "^5.1.2"
+    tough-cookie "~2.5.0"
+    tunnel-agent "^0.6.0"
+    uuid "^3.3.2"
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -4757,6 +7062,12 @@ reselect@^3.0.1:
   version "3.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
 
+resolve-cwd@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/resolve-cwd/-/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
+  dependencies:
+    resolve-from "^5.0.0"
+
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -4769,7 +7080,11 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0:
+resolve@1.1.7:
+  version "1.1.7"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
+
+resolve@^1.10.0, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.3.2, resolve@^1.4.0, resolve@^1.5.0:
   version "1.19.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/resolve/-/resolve-1.19.0.tgz#1af5bf630409734a067cae29318aac7fa29a267c"
   dependencies:
@@ -4790,6 +7105,12 @@ ret@~0.1.10:
 rimraf@^2.5.4:
   version "2.7.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
+  dependencies:
+    glob "^7.1.3"
+
+rimraf@^3.0.0:
+  version "3.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
   dependencies:
     glob "^7.1.3"
 
@@ -4825,13 +7146,17 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
+safe-buffer@^5.0.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+
 safe-regex@^1.1.0:
   version "1.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/safe-regex/-/safe-regex-1.1.0.tgz#40a3669f3b077d1e943d44629e157dd48023bf2e"
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
@@ -4853,12 +7178,35 @@ sax@>=0.6.0, sax@^1.2.1, sax@^1.2.4:
   version "1.2.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+saxes@^3.1.9:
+  version "3.1.11"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/saxes/-/saxes-3.1.11.tgz#d59d1fd332ec92ad98a2e0b2ee644702384b1c5b"
+  dependencies:
+    xmlchars "^2.1.1"
+
+saxes@^5.0.0:
+  version "5.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/saxes/-/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
+  dependencies:
+    xmlchars "^2.2.0"
+
 scheduler@0.19.1, scheduler@^0.19.1:
   version "0.19.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+scheduler@^0.17.0:
+  version "0.17.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+"semver@2 || 3 || 4 || 5", semver@^5.1.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+  version "5.7.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
 
 semver@7.0.0:
   version "7.0.0"
@@ -4868,13 +7216,15 @@ semver@7.3.2:
   version "7.3.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
 
-semver@^5.1.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
-  version "5.7.1"
-  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
-
-semver@^6.3.0:
+semver@^6.0.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
+
+semver@^7.3.2:
+  version "7.3.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
+  dependencies:
+    lru-cache "^6.0.0"
 
 send@0.17.1:
   version "0.17.1"
@@ -4934,9 +7284,19 @@ shebang-command@^1.2.0:
   dependencies:
     shebang-regex "^1.0.0"
 
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  dependencies:
+    shebang-regex "^3.0.0"
+
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
 
 shell-quote@1.6.1:
   version "1.6.1"
@@ -4950,6 +7310,10 @@ shell-quote@1.6.1:
 shell-quote@^1.6.1:
   version "1.7.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
+
+shellwords@^0.1.1:
+  version "0.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
 
 side-channel@^1.0.3:
   version "1.0.4"
@@ -4976,6 +7340,10 @@ simple-swizzle@^0.2.2:
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
   dependencies:
     is-arrayish "^0.3.1"
+
+sisteransi@^1.0.5:
+  version "1.0.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
 
 slash@^2.0.0:
   version "2.0.0"
@@ -5038,7 +7406,7 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@^0.5.16:
+source-map-support@^0.5.16, source-map-support@^0.5.6:
   version "0.5.19"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   dependencies:
@@ -5053,13 +7421,35 @@ source-map@^0.5.0, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-source-map@^0.6.0, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 source-map@^0.7.3:
   version "0.7.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+
+spdx-correct@^3.0.0:
+  version "3.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/spdx-correct/-/spdx-correct-3.1.1.tgz#dece81ac9c1e6713e5f7d1b6f17d468fa53d89a9"
+  dependencies:
+    spdx-expression-parse "^3.0.0"
+    spdx-license-ids "^3.0.0"
+
+spdx-exceptions@^2.1.0:
+  version "2.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz#3f28ce1a77a00372683eade4a433183527a2163d"
+
+spdx-expression-parse@^3.0.0:
+  version "3.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz#cf70f50482eefdc98e3ce0a6833e4a53ceeba679"
+  dependencies:
+    spdx-exceptions "^2.1.0"
+    spdx-license-ids "^3.0.0"
+
+spdx-license-ids@^3.0.0:
+  version "3.0.7"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/spdx-license-ids/-/spdx-license-ids-3.0.7.tgz#e9c18a410e5ed7e12442a549fbd8afa767038d65"
 
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
@@ -5071,9 +7461,29 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
+sshpk@^1.7.0:
+  version "1.16.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
+  dependencies:
+    asn1 "~0.2.3"
+    assert-plus "^1.0.0"
+    bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
+    ecc-jsbn "~0.1.1"
+    getpass "^0.1.1"
+    jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
+    tweetnacl "~0.14.0"
+
 stack-utils@^1.0.1:
   version "1.0.4"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/stack-utils/-/stack-utils-1.0.4.tgz#4b600971dcfc6aed0cbdf2a8268177cc916c87c8"
+  dependencies:
+    escape-string-regexp "^2.0.0"
+
+stack-utils@^2.0.2:
+  version "2.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/stack-utils/-/stack-utils-2.0.3.tgz#cd5f030126ff116b78ccb3c027fe302713b61277"
   dependencies:
     escape-string-regexp "^2.0.0"
 
@@ -5094,9 +7504,27 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
 
+stealthy-require@^1.1.1:
+  version "1.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
+
 stream-buffers@~2.2.0:
   version "2.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
+
+string-length@^3.1.0:
+  version "3.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/string-length/-/string-length-3.1.0.tgz#107ef8c23456e187a8abd4a61162ff4ac6e25837"
+  dependencies:
+    astral-regex "^1.0.0"
+    strip-ansi "^5.2.0"
+
+string-length@^4.0.1:
+  version "4.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/string-length/-/string-length-4.0.1.tgz#4a973bf31ef77c4edbceadd6af2611996985f8a1"
+  dependencies:
+    char-regex "^1.0.2"
+    strip-ansi "^6.0.0"
 
 string-width@^2.1.0:
   version "2.1.1"
@@ -5159,9 +7587,17 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
+strip-bom@^4.0.0:
+  version "4.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/strip-bom/-/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
+
 strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
+
+strip-final-newline@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
 
 sudo-prompt@^9.0.0:
   version "9.2.1"
@@ -5179,15 +7615,26 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-supports-color@^7.1.0:
+supports-color@^7.0.0, supports-color@^7.1.0:
   version "7.2.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
   dependencies:
     has-flag "^4.0.0"
 
+supports-hyperlinks@^2.0.0:
+  version "2.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/supports-hyperlinks/-/supports-hyperlinks-2.1.0.tgz#f663df252af5f37c5d49bbd7eeefa9e0b9e59e47"
+  dependencies:
+    has-flag "^4.0.0"
+    supports-color "^7.0.0"
+
 symbol-observable@1.0.1:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
+
+symbol-tree@^3.2.2, symbol-tree@^3.2.4:
+  version "3.2.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
 
 temp-dir@^1.0.0:
   version "1.0.0"
@@ -5208,9 +7655,28 @@ tempy@0.3.0:
     type-fest "^0.3.1"
     unique-string "^1.0.0"
 
+terminal-link@^2.0.0:
+  version "2.1.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/terminal-link/-/terminal-link-2.1.1.tgz#14a64a27ab3c0df933ea546fba55f2d078edc994"
+  dependencies:
+    ansi-escapes "^4.2.1"
+    supports-hyperlinks "^2.0.0"
+
+test-exclude@^6.0.0:
+  version "6.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/test-exclude/-/test-exclude-6.0.0.tgz#04a8698661d805ea6fa293b6cb9e63ac044ef15e"
+  dependencies:
+    "@istanbuljs/schema" "^0.1.2"
+    glob "^7.1.4"
+    minimatch "^3.0.4"
+
 throat@^4.1.0:
   version "4.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
+
+throat@^5.0.0:
+  version "5.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
 
 through2@^2.0.0, through2@^2.0.1:
   version "2.0.5"
@@ -5266,6 +7732,12 @@ to-regex-range@^2.1.0:
     is-number "^3.0.0"
     repeat-string "^1.6.1"
 
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  dependencies:
+    is-number "^7.0.0"
+
 to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/to-regex/-/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
@@ -5279,13 +7751,78 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
 
+tough-cookie@^2.3.3, tough-cookie@~2.5.0:
+  version "2.5.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"
+  dependencies:
+    psl "^1.1.28"
+    punycode "^2.1.1"
+
+tough-cookie@^3.0.1:
+  version "3.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tough-cookie/-/tough-cookie-3.0.1.tgz#9df4f57e739c26930a018184887f4adb7dca73b2"
+  dependencies:
+    ip-regex "^2.1.0"
+    psl "^1.1.28"
+    punycode "^2.1.1"
+
+tr46@^1.0.1:
+  version "1.0.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
+  dependencies:
+    punycode "^2.1.0"
+
+tr46@^2.0.2:
+  version "2.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tr46/-/tr46-2.0.2.tgz#03273586def1595ae08fedb38d7733cee91d2479"
+  dependencies:
+    punycode "^2.1.1"
+
+tunnel-agent@^0.6.0:
+  version "0.6.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  dependencies:
+    safe-buffer "^5.0.1"
+
+tweetnacl@^0.14.3, tweetnacl@~0.14.0:
+  version "0.14.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+
+type-check@~0.3.2:
+  version "0.3.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
+  dependencies:
+    prelude-ls "~1.1.2"
+
+type-detect@4.0.8:
+  version "4.0.8"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+
+type-fest@^0.11.0:
+  version "0.11.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
+
 type-fest@^0.3.1:
   version "0.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-fest/-/type-fest-0.3.1.tgz#63d00d204e059474fe5e1b7c011112bbd1dc29e1"
 
+type-fest@^0.6.0:
+  version "0.6.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-fest/-/type-fest-0.6.0.tgz#8d2a2370d3df886eb5c90ada1c5bf6188acf838b"
+
 type-fest@^0.7.1:
   version "0.7.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-fest/-/type-fest-0.7.1.tgz#8dda65feaf03ed78f0a3f9678f1869147f7c5c48"
+
+type-fest@^0.8.1:
+  version "0.8.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
+
+typedarray-to-buffer@^3.1.5:
+  version "3.1.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz#a97ee7a9ff42691b9f783ff1bc5112fe3fca9080"
+  dependencies:
+    is-typedarray "^1.0.0"
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -5411,6 +7948,12 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
+uri-js@^4.2.2:
+  version "4.4.1"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
+  dependencies:
+    punycode "^2.1.0"
+
 urix@^0.1.0:
   version "0.1.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
@@ -5454,13 +7997,68 @@ uuid@^7.0.3:
   version "7.0.3"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
 
+uuid@^8.3.0:
+  version "8.3.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+
+v8-to-istanbul@^4.1.3:
+  version "4.1.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/v8-to-istanbul/-/v8-to-istanbul-4.1.4.tgz#b97936f21c0e2d9996d4985e5c5156e9d4e49cd6"
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.1"
+    convert-source-map "^1.6.0"
+    source-map "^0.7.3"
+
+v8-to-istanbul@^7.0.0:
+  version "7.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/v8-to-istanbul/-/v8-to-istanbul-7.1.0.tgz#5b95cef45c0f83217ec79f8fc7ee1c8b486aee07"
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.1"
+    convert-source-map "^1.6.0"
+    source-map "^0.7.3"
+
+validate-npm-package-license@^3.0.1:
+  version "3.0.4"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
+  dependencies:
+    spdx-correct "^3.0.0"
+    spdx-expression-parse "^3.0.0"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
+verror@1.10.0:
+  version "1.10.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
+  dependencies:
+    assert-plus "^1.0.0"
+    core-util-is "1.0.2"
+    extsprintf "^1.2.0"
+
 vlq@^1.0.0:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/vlq/-/vlq-1.0.1.tgz#c003f6e7c0b4c1edd623fd6ee50bbc0d6a1de468"
+
+w3c-hr-time@^1.0.1, w3c-hr-time@^1.0.2:
+  version "1.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
+  dependencies:
+    browser-process-hrtime "^1.0.0"
+
+w3c-xmlserializer@^1.1.2:
+  version "1.1.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/w3c-xmlserializer/-/w3c-xmlserializer-1.1.2.tgz#30485ca7d70a6fd052420a3d12fd90e6339ce794"
+  dependencies:
+    domexception "^1.0.1"
+    webidl-conversions "^4.0.2"
+    xml-name-validator "^3.0.0"
+
+w3c-xmlserializer@^2.0.0:
+  version "2.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/w3c-xmlserializer/-/w3c-xmlserializer-2.0.0.tgz#3e7104a05b75146cc60f564380b7f683acf1020a"
+  dependencies:
+    xml-name-validator "^3.0.0"
 
 walker@^1.0.7, walker@~1.0.5:
   version "1.0.7"
@@ -5474,9 +8072,47 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+webidl-conversions@^4.0.2:
+  version "4.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
+
+webidl-conversions@^5.0.0:
+  version "5.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/webidl-conversions/-/webidl-conversions-5.0.0.tgz#ae59c8a00b121543a2acc65c0434f57b0fc11aff"
+
+webidl-conversions@^6.1.0:
+  version "6.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
+
+whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.5:
+  version "1.0.5"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/whatwg-encoding/-/whatwg-encoding-1.0.5.tgz#5abacf777c32166a51d085d6b4f3e7d27113ddb0"
+  dependencies:
+    iconv-lite "0.4.24"
+
 whatwg-fetch@>=0.10.0, whatwg-fetch@^3.0.0:
   version "3.5.0"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/whatwg-fetch/-/whatwg-fetch-3.5.0.tgz#605a2cd0a7146e5db141e29d1c62ab84c0c4c868"
+
+whatwg-mimetype@^2.2.0, whatwg-mimetype@^2.3.0:
+  version "2.3.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
+
+whatwg-url@^7.0.0:
+  version "7.1.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/whatwg-url/-/whatwg-url-7.1.0.tgz#c2c492f1eca612988efd3d2266be1b9fc6170d06"
+  dependencies:
+    lodash.sortby "^4.7.0"
+    tr46 "^1.0.1"
+    webidl-conversions "^4.0.2"
+
+whatwg-url@^8.0.0:
+  version "8.4.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/whatwg-url/-/whatwg-url-8.4.0.tgz#50fb9615b05469591d2b2bd6dfaed2942ed72837"
+  dependencies:
+    lodash.sortby "^4.7.0"
+    tr46 "^2.0.2"
+    webidl-conversions "^6.1.0"
 
 which-boxed-primitive@^1.0.1:
   version "1.0.2"
@@ -5513,11 +8149,21 @@ which-typed-array@^1.1.2:
     has-symbols "^1.0.1"
     is-typed-array "^1.1.3"
 
-which@^1.2.9:
+which@^1.2.9, which@^1.3.1:
   version "1.3.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   dependencies:
     isexe "^2.0.0"
+
+which@^2.0.1, which@^2.0.2:
+  version "2.0.2"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  dependencies:
+    isexe "^2.0.0"
+
+word-wrap@~1.2.3:
+  version "1.2.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
 
 wordwrap@^1.0.0:
   version "1.0.0"
@@ -5559,6 +8205,15 @@ write-file-atomic@^2.3.0:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
 
+write-file-atomic@^3.0.0:
+  version "3.0.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/write-file-atomic/-/write-file-atomic-3.0.3.tgz#56bd5c5a5c70481cd19c571bd39ab965a5de56e8"
+  dependencies:
+    imurmurhash "^0.1.4"
+    is-typedarray "^1.0.0"
+    signal-exit "^3.0.2"
+    typedarray-to-buffer "^3.1.5"
+
 ws@^1.1.0, ws@^1.1.5:
   version "1.1.5"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
@@ -5569,6 +8224,10 @@ ws@^1.1.0, ws@^1.1.5:
 ws@^7:
   version "7.4.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ws/-/ws-7.4.2.tgz#782100048e54eb36fe9843363ab1c68672b261dd"
+
+ws@^7.0.0, ws@^7.2.3:
+  version "7.4.3"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
 
 xcode@^2.0.0, xcode@^2.1.0:
   version "2.1.0"
@@ -5599,6 +8258,10 @@ xml-js@^1.6.11:
   dependencies:
     sax "^1.2.4"
 
+xml-name-validator@^3.0.0:
+  version "3.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
+
 xml-parse-from-string@^1.0.0:
   version "1.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz#a9029e929d3dbcded169f3c6e28238d95a5d5a28"
@@ -5621,6 +8284,10 @@ xmlbuilder@^9.0.7:
 xmlbuilder@~11.0.0:
   version "11.0.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
+
+xmlchars@^2.1.1, xmlchars@^2.2.0:
+  version "2.2.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
 
 xmldoc@^1.1.2:
   version "1.1.2"
@@ -5647,6 +8314,10 @@ y18n@^4.0.0:
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
 
 yargs-parser@^15.0.1:
   version "15.0.1"
@@ -5678,7 +8349,7 @@ yargs@^14.2.0:
     y18n "^4.0.0"
     yargs-parser "^15.0.1"
 
-yargs@^15.1.0:
+yargs@^15.1.0, yargs@^15.3.1, yargs@^15.4.1:
   version "15.4.1"
   resolved "https://zuora.jfrog.io/zuora/api/npm/zuora-npm/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   dependencies:

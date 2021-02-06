@@ -17,7 +17,6 @@ Download and install [Expo](https://docs.expo.io/) on your mobile device, you sh
 ## How to start the servers:
 
 ```
-- cd client
 - yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
 - yarn android
 - yarn ios
